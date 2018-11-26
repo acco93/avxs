@@ -24,7 +24,7 @@ fi
 
 instances_path=../instances
 
-(cd ../source/ && cmake . )
+(cd ../source/ && cmake -DCMAKE_BUILD_TYPE=Release . )
 (cd ../source/ && cmake --build . --target all -- -j 4 )
 (rm -r ../source/CMakeFiles && rm ../source/CMakeCache.txt && rm ../source/cmake_install.cmake && rm ../source/Makefile && mv ../source/avxs .)
 

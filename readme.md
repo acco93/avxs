@@ -88,7 +88,7 @@ You can provide the following optional cmake options.
 - `ENABLE_NGRANULAR` to use complete neighborhood exploration instead of granular neighborhoods.
 
 The directives must be given using `-DENABLE_XXXX=ON`. See the example below.
-It is necessary to rebuild the program to commit the changes e.g. `cmake -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
+It is necessary to rebuild the program to commit the changes e.g. `cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
 
 
 #### Usage

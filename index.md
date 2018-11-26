@@ -64,7 +64,7 @@ To correctly compile and build the executable and to execute `scripts/build.sh` 
 - `g++` >= 6.3.0*
 - `cplex` >= 12.8*
 
-To successfully execute scripts/run.sh
+To successfully execute `scripts/run.sh`
 - `cmake` >= 3.10
 - `g++` >= 6.3.0*
 - `cplex` >= 12.8*

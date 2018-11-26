@@ -1,8 +1,52 @@
 Stable version of the `AVXS` algorithm described in the paper.
 
+#### Table of contents
+<!--ts-->
+   * [Introduction](#introduction)
+   * [Directories and files](#directories-and-files)
+   * [Requirements](#requirements)
+   * [Build options](#build-options)
+   * [Usage](#usage)
+<!--te-->
+
+#### Introduction
+Truck and trailer routing problems is a very well studied category of vehicle routing problems in which vehicle capacities may be augmented with trailers. The literature contains several variations that enrich such basic setting by adding particular constraints to better model specific scenarios.
+
+
+In this paper, we study the Extended Single Truck and Trailer Routing Problem which generalizes a set of existing truck and trailer routing problems by including a variety of vertex types previously independently considered in different problem variants: namely, truck customers, vehicle customers with and without parking facility, and pure parking locations.
+
+
+The XSTTRP consists in servicing a set of customers with known demand by using a single vehicle composed of a capacitated truck and a non-autonomous and detachable trailer that is initially located at a main depot.
+
+
+The customers are partitioned in two different sets: *truck customers* and *vehicle customers*.
+
+
+Truck customers must be visited by the truck only, while vehicle customers can be served either by the whole vehicle or just by the truck.
+
+
+Vehicle customers are, in turn, split into vehicle customers *with parking facility* and vehicle customers *without parking facility*.
+
+
+The problem contains an additional set of *satellite depots*, which are pure parking locations and may be possibly visited to park the trailer whenever necessary.
+
+
+An XSTTRP solution is made up by a *main-route*, traveled by the complete vehicle, which starts from the main depot, visits a subset of vehicle customers and satellite depots and returns to the depot.
+
+
+At each visited parking location (i.e., either satellite depots or vehicle customers with parking facility) the vehicle can detach its trailer, serve a subset of customers with the truck and return to the parking location to pick-up the trailer. We call this a *sub-route* and the place where the trailer has been decoupled the *root* of the sub-route.
+
+
+The objective is to serve all customers in a way that minimize the total traveling cost, while  respecting the truck capacity along the sub-routes and taking into account the accessibility constraints.
+
+
+We developed a comprehensive, still effective, heuristic solution approach for this class of problems. The proposed algorithm is extensively tested  on XSTTRP instances, as well as on some known problems which arise as special cases of the model, such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots and the Single Truck and Trailer Routing Problem.
+
+
 #### Directories and files
 - `build` contains the algorithm executable once compiled. It is automatically generated if removed or not present.
 - `instances` contains the instances used to test the algorithm and a readme that describes the supported file formats. 
+- `results` contains the log for the results as published in the paper.
 - `scripts` contains a set of utility scripts to build the source code and to reproduce the published results.
  All the scripts assume that the directories structure is the one define in this readme. 
   - `analysis.sh` performs some analysis as in the Analysis section of the paper. It automatically takes care to compile the code with the required directives and run it with the required input parameters.

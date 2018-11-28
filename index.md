@@ -45,8 +45,8 @@ The objective is to serve all customers in a way that minimize the total traveli
 We developed a comprehensive, still effective, heuristic solution approach for this class of problems. The proposed algorithm is extensively tested  on XSTTRP instances, as well as on some known problems which arise as special cases of the model, such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots and the Single Truck and Trailer Routing Problem.
 
 #### Software
-- [Stable version of `AVXS`](https://github.com/acco93/avxs/archive/master.zip)
-- [Map maker](#)
+- `avxs` algorithm [Stable version](https://github.com/acco93/avxs/archive/master.zip) [Active repository](#)
+- `xmm` XSTTRP map maker [Active repository](https://github.com/acco93/xmm)
 
 #### Directories and files
 The stable version of `AVXS` contains the following directories and files
@@ -88,7 +88,7 @@ You can provide the following optional cmake options.
 - `ENABLE_NGRANULAR` to use complete neighborhood exploration instead of granular neighborhoods.
 
 The directives must be given using `-DENABLE_XXXX=ON`. See the example below.
-It is necessary to rebuild the program to commit the changes e.g. `cmake -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
+It is necessary to rebuild the program to commit the changes e.g. `cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
 
 
 #### Usage

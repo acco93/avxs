@@ -1,0 +1,319 @@
+This file summarizes the results obtained with AVXS.
+ The level of details depends on the preprocessor directives used to compile the algorithm.
+ The results are aggregated over the runs and over the instances.
+
+
+
+
+
+
+
+Assignment fitness function
+- custom values
+-- 1-near for all instances
+
+
+
+
+
+
+
+Objective value and timings (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- the best known solution (bks)
+- the best gap over the runs (best)
+- the average gap over the runs (avg)
+- the worst gap over the runs (worst)
+- the total time to perform the runs in seconds (t)
+
+instance, bks, best, avg, worst, t
+../instances/xsttrp/xsttrp1, 753.43, 0.00, 0.00, 0.00, 50
+../instances/xsttrp/xsttrp2, 602.99, 0.00, 0.00, 0.00, 30
+../instances/xsttrp/xsttrp3, 696.03, 0.00, 0.00, 0.00, 50
+../instances/xsttrp/xsttrp4, 505.23, 0.00, 0.00, 0.00, 11
+../instances/xsttrp/xsttrp5, 517.86, 0.00, 0.19, 0.32, 10
+../instances/xsttrp/xsttrp6, 586.87, 0.00, 0.00, 0.00, 30
+../instances/xsttrp/xsttrp7, 624.39, 0.00, 0.00, 0.00, 20
+../instances/xsttrp/xsttrp8, 538.40, 0.00, 0.24, 0.93, 40
+../instances/xsttrp/xsttrp9, 582.27, 0.00, 0.00, 0.00, 30
+../instances/xsttrp/xsttrp10, 522.54, 0.87, 0.87, 0.87, 37
+../instances/xsttrp/xsttrp11, 556.61, 0.00, 0.05, 0.51, 30
+../instances/xsttrp/xsttrp12, 916.39, 0.19, 0.32, 0.49, 180
+../instances/xsttrp/xsttrp13, 935.35, 0.00, 0.00, 0.00, 142
+../instances/xsttrp/xsttrp14, 906.73, 0.10, 0.31, 0.60, 187
+../instances/xsttrp/xsttrp15, 896.46, 0.22, 0.49, 0.77, 159
+../instances/xsttrp/xsttrp16, 776.73, 0.79, 0.97, 1.12, 205
+../instances/xsttrp/xsttrp17, 797.98, 0.36, 0.51, 0.62, 134
+../instances/xsttrp/xsttrp18, 766.49, 0.05, 0.19, 0.35, 254
+../instances/xsttrp/xsttrp19, 773.97, 0.00, 0.06, 0.16, 123
+../instances/xsttrp/xsttrp20, 735.26, 0.04, 0.04, 0.04, 53
+../instances/xsttrp/xsttrp21, 744.64, 0.43, 0.68, 1.01, 53
+../instances/xsttrp/xsttrp22, 700.54, 0.19, 0.54, 0.78, 69
+../instances/xsttrp/xsttrp23, 717.15, 0.00, 0.07, 0.32, 60
+../instances/xsttrp/xsttrp24, 716.31, 0.00, 0.42, 0.59, 34
+../instances/xsttrp/xsttrp25, 802.23, 0.00, 0.12, 0.31, 40
+../instances/xsttrp/xsttrp26, 652.27, 0.00, 0.06, 0.61, 44
+../instances/xsttrp/xsttrp27, 661.35, 0.00, 0.01, 0.13, 30
+../instances/xsttrp/xsttrp28, 851.22, 0.18, 0.38, 0.59, 229
+../instances/xsttrp/xsttrp29, 888.98, 0.32, 0.47, 0.81, 174
+../instances/xsttrp/xsttrp30, 821.11, 0.20, 0.62, 0.98, 207
+../instances/xsttrp/xsttrp31, 858.82, 0.26, 0.71, 1.04, 145
+../instances/xsttrp/xsttrp32, 667.99, 0.05, 0.24, 0.30, 70
+../instances/xsttrp/xsttrp33, 671.63, 0.00, 0.19, 0.70, 34
+../instances/xsttrp/xsttrp34, 627.53, 0.00, 0.23, 0.25, 89
+../instances/xsttrp/xsttrp35, 651.83, 0.00, 0.06, 0.17, 50
+../instances/xsttrp/xsttrp36, 949.75, 1.73, 1.90, 1.99, 399
+../instances/xsttrp/xsttrp37, 980.80, 0.70, 1.16, 1.61, 298
+../instances/xsttrp/xsttrp38, 931.48, 1.13, 1.61, 1.94, 437
+../instances/xsttrp/xsttrp39, 972.89, 0.33, 0.85, 1.17, 306
+../instances/xsttrp/xsttrp40, 903.38, 0.12, 0.42, 0.66, 468
+../instances/xsttrp/xsttrp41, 932.17, 0.24, 0.63, 0.95, 341
+../instances/xsttrp/xsttrp42, 789.82, 0.15, 1.40, 1.55, 68
+../instances/xsttrp/xsttrp43, 784.69, 0.51, 0.51, 0.51, 50
+../instances/xsttrp/xsttrp44, 758.83, 0.35, 0.41, 0.42, 51
+../instances/xsttrp/xsttrp45, 773.22, 0.00, 0.00, 0.00, 52
+../instances/xsttrp/xsttrp46, 1041.28, 0.25, 0.34, 0.59, 377
+../instances/xsttrp/xsttrp47, 1088.01, 0.08, 0.32, 0.50, 323
+../instances/xsttrp/xsttrp48, 1009.89, 0.06, 0.19, 0.40, 291
+../instances/xsttrp/xsttrp49, 1072.64, 0.87, 1.11, 1.34, 402
+../instances/xsttrp/xsttrp50, 972.13, 0.17, 0.33, 0.61, 377
+../instances/xsttrp/xsttrp51, 997.43, 0.12, 0.29, 0.48, 262
+../instances/xsttrp/xsttrp52, 603.08, 0.00, 0.18, 0.29, 94
+../instances/xsttrp/xsttrp53, 666.36, 0.01, 0.18, 0.26, 52
+../instances/xsttrp/xsttrp54, 589.21, 0.00, 0.02, 0.03, 101
+../instances/xsttrp/xsttrp55, 607.69, 0.00, 0.00, 0.00, 51
+../instances/xsttrp/xsttrp56, 570.53, 0.00, 0.12, 0.13, 85
+../instances/xsttrp/xsttrp57, 580.00, 0.00, 0.00, 0.00, 49
+../instances/xsttrp/xsttrp58, 561.61, 0.08, 0.33, 0.46, 102
+../instances/xsttrp/xsttrp59, 560.75, 0.00, 0.03, 0.35, 46
+../instances/xsttrp/xsttrp60, 645.86, 0.00, 0.00, 0.00, 56
+../instances/xsttrp/xsttrp61, 777.00, 0.35, 0.49, 0.83, 89
+../instances/xsttrp/xsttrp62, 642.40, 0.00, 0.00, 0.00, 43
+../instances/xsttrp/xsttrp63, 717.47, 0.00, 0.01, 0.12, 49
+../instances/xsttrp/xsttrp64, 557.56, 0.00, 0.00, 0.00, 20
+../instances/xsttrp/xsttrp65, 553.54, 0.00, 0.00, 0.00, 10
+../instances/xsttrp/xsttrp66, 869.25, 0.08, 0.23, 0.35, 424
+../instances/xsttrp/xsttrp67, 903.03, 0.56, 0.89, 1.17, 305
+../instances/xsttrp/xsttrp68, 858.97, 0.26, 0.36, 0.62, 496
+../instances/xsttrp/xsttrp69, 881.41, 0.56, 1.46, 1.94, 290
+../instances/xsttrp/xsttrp70, 826.67, 0.21, 0.54, 0.81, 642
+../instances/xsttrp/xsttrp71, 862.82, 1.32, 1.80, 2.07, 318
+../instances/xsttrp/xsttrp72, 456.01, 0.00, 0.00, 0.00, 10
+../instances/xsttrp/xsttrp73, 485.42, 0.00, 0.00, 0.00, 10
+../instances/xsttrp/xsttrp74, 573.69, 0.00, 0.00, 0.00, 50
+../instances/xsttrp/xsttrp75, 660.97, 0.00, 0.00, 0.00, 40
+../instances/xsttrp/xsttrp76, 567.98, 0.00, 0.00, 0.00, 60
+../instances/xsttrp/xsttrp77, 594.29, 0.00, 0.01, 0.02, 35
+
+
+== Summary ==
+Average best gap = 0.19
+Average avg gap = 0.35
+Average worst gap = 0.51
+Average total time (10 runs) = 144.57
+
+
+
+
+
+
+
+Absolute costs (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- for each run the value of the objective function for the best found solution (run N)
+- the best objective function value (best)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, best
+../instances/xsttrp/xsttrp1, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43, 753.43
+../instances/xsttrp/xsttrp2, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99, 602.99
+../instances/xsttrp/xsttrp3, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03, 696.03
+../instances/xsttrp/xsttrp4, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23, 505.23
+../instances/xsttrp/xsttrp5, 519.53, 519.53, 519.53, 519.53, 517.86, 519.53, 517.86, 519.53, 517.86, 517.86, 517.86
+../instances/xsttrp/xsttrp6, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87, 586.87
+../instances/xsttrp/xsttrp7, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39, 624.39
+../instances/xsttrp/xsttrp8, 538.84, 538.84, 538.84, 538.40, 538.84, 538.40, 543.41, 543.41, 538.84, 538.84, 538.40
+../instances/xsttrp/xsttrp9, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27, 582.27
+../instances/xsttrp/xsttrp10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10, 527.10
+../instances/xsttrp/xsttrp11, 556.61, 556.61, 556.61, 556.61, 556.61, 559.46, 556.61, 556.61, 556.61, 556.61, 556.61
+../instances/xsttrp/xsttrp12, 918.15, 919.80, 918.15, 919.80, 919.80, 920.92, 918.15, 920.29, 918.15, 920.31, 918.15
+../instances/xsttrp/xsttrp13, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35, 935.35
+../instances/xsttrp/xsttrp14, 909.58, 907.61, 910.25, 909.08, 910.17, 909.82, 909.08, 909.06, 912.14, 908.33, 907.61
+../instances/xsttrp/xsttrp15, 903.04, 899.83, 898.47, 899.81, 898.92, 899.86, 903.34, 902.69, 899.30, 903.19, 898.47
+../instances/xsttrp/xsttrp16, 783.78, 784.72, 785.12, 782.84, 784.01, 785.00, 784.69, 785.40, 783.97, 783.24, 782.84
+../instances/xsttrp/xsttrp17, 802.82, 800.88, 802.21, 801.65, 802.56, 802.24, 802.17, 802.96, 802.29, 801.09, 800.88
+../instances/xsttrp/xsttrp18, 766.91, 769.13, 766.90, 768.25, 766.90, 767.89, 769.21, 766.90, 768.46, 768.54, 766.90
+../instances/xsttrp/xsttrp19, 775.18, 774.51, 774.51, 774.51, 774.65, 774.65, 773.98, 773.98, 773.98, 774.76, 773.98
+../instances/xsttrp/xsttrp20, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52, 735.52
+../instances/xsttrp/xsttrp21, 747.83, 749.91, 752.13, 749.46, 747.83, 749.46, 750.84, 749.46, 750.76, 749.46, 747.83
+../instances/xsttrp/xsttrp22, 704.23, 706.03, 704.89, 701.86, 702.77, 704.89, 704.89, 703.98, 703.98, 705.85, 701.86
+../instances/xsttrp/xsttrp23, 717.15, 717.15, 719.00, 717.29, 719.47, 717.15, 717.15, 717.15, 717.41, 717.41, 717.15
+../instances/xsttrp/xsttrp24, 716.31, 720.52, 720.52, 720.52, 720.52, 720.52, 716.31, 720.39, 716.99, 720.52, 716.31
+../instances/xsttrp/xsttrp25, 803.09, 803.09, 802.23, 803.09, 804.75, 804.75, 803.09, 802.23, 802.23, 803.36, 802.23
+../instances/xsttrp/xsttrp26, 652.27, 652.27, 652.27, 656.27, 652.27, 652.27, 652.27, 652.27, 652.27, 652.27, 652.27
+../instances/xsttrp/xsttrp27, 661.35, 661.35, 661.35, 661.35, 662.18, 661.35, 661.35, 661.35, 661.35, 661.35, 661.35
+../instances/xsttrp/xsttrp28, 855.18, 855.35, 853.24, 852.94, 853.84, 855.60, 856.21, 853.77, 855.49, 852.78, 852.78
+../instances/xsttrp/xsttrp29, 892.04, 892.04, 894.82, 893.88, 894.82, 892.26, 892.04, 891.79, 896.17, 892.04, 891.79
+../instances/xsttrp/xsttrp30, 825.65, 823.44, 825.48, 827.74, 825.78, 828.13, 822.73, 826.80, 829.17, 827.09, 822.73
+../instances/xsttrp/xsttrp31, 864.99, 865.63, 861.08, 867.07, 863.98, 864.26, 864.58, 865.69, 867.73, 864.40, 861.08
+../instances/xsttrp/xsttrp32, 669.85, 669.85, 669.85, 669.85, 668.34, 669.85, 670.02, 669.85, 668.34, 669.85, 668.34
+../instances/xsttrp/xsttrp33, 671.63, 674.66, 671.63, 675.28, 671.63, 671.63, 676.33, 671.63, 672.74, 671.63, 671.63
+../instances/xsttrp/xsttrp34, 629.10, 629.10, 629.10, 629.10, 629.10, 629.10, 629.10, 629.10, 629.10, 627.53, 627.53
+../instances/xsttrp/xsttrp35, 652.91, 651.83, 651.95, 651.95, 651.95, 652.92, 651.95, 651.95, 652.91, 651.95, 651.83
+../instances/xsttrp/xsttrp36, 967.73, 967.91, 967.91, 968.25, 966.21, 967.91, 967.66, 968.69, 967.91, 967.91, 966.21
+../instances/xsttrp/xsttrp37, 989.50, 993.04, 987.62, 990.11, 992.65, 993.55, 991.70, 992.06, 996.55, 994.84, 987.62
+../instances/xsttrp/xsttrp38, 948.15, 943.43, 944.39, 947.58, 949.59, 947.41, 945.26, 942.04, 948.88, 948.43, 942.04
+../instances/xsttrp/xsttrp39, 980.97, 982.70, 983.17, 981.21, 976.11, 978.57, 983.14, 978.27, 982.96, 984.26, 976.11
+../instances/xsttrp/xsttrp40, 904.50, 909.31, 907.13, 907.14, 909.12, 905.04, 908.24, 907.95, 907.52, 905.86, 904.50
+../instances/xsttrp/xsttrp41, 940.27, 935.99, 939.78, 939.72, 935.67, 937.97, 940.99, 938.82, 937.20, 934.38, 934.38
+../instances/xsttrp/xsttrp42, 802.07, 802.07, 802.07, 802.07, 791.02, 800.81, 802.07, 802.07, 802.07, 802.07, 791.02
+../instances/xsttrp/xsttrp43, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68, 788.68
+../instances/xsttrp/xsttrp44, 762.01, 762.01, 762.01, 761.47, 762.01, 762.01, 762.01, 762.01, 762.01, 762.01, 761.47
+../instances/xsttrp/xsttrp45, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22, 773.22
+../instances/xsttrp/xsttrp46, 1044.04, 1043.86, 1046.97, 1043.86, 1043.86, 1043.99, 1045.86, 1044.12, 1047.40, 1044.60, 1043.86
+../instances/xsttrp/xsttrp47, 1090.10, 1091.44, 1092.56, 1093.44, 1091.39, 1090.87, 1092.70, 1090.21, 1088.91, 1093.14, 1088.91
+../instances/xsttrp/xsttrp48, 1010.72, 1012.35, 1012.78, 1010.89, 1013.98, 1010.71, 1010.50, 1012.71, 1011.04, 1012.83, 1010.50
+../instances/xsttrp/xsttrp49, 1087.04, 1085.57, 1085.25, 1084.02, 1085.85, 1083.86, 1085.52, 1081.95, 1082.81, 1083.79, 1081.95
+../instances/xsttrp/xsttrp50, 974.58, 974.94, 974.45, 978.09, 976.28, 975.57, 975.57, 973.75, 974.94, 974.94, 973.75
+../instances/xsttrp/xsttrp51, 1000.02, 1002.22, 1002.09, 998.65, 1000.65, 1000.52, 998.65, 1000.02, 1001.90, 998.65, 998.65
+../instances/xsttrp/xsttrp52, 604.80, 604.04, 604.14, 603.08, 604.12, 604.12, 603.75, 604.80, 604.80, 604.12, 603.08
+../instances/xsttrp/xsttrp53, 668.12, 666.44, 668.12, 666.44, 668.12, 668.12, 668.12, 666.44, 667.95, 667.83, 666.44
+../instances/xsttrp/xsttrp54, 589.37, 589.37, 589.37, 589.37, 589.37, 589.21, 589.37, 589.21, 589.37, 589.37, 589.21
+../instances/xsttrp/xsttrp55, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69, 607.69
+../instances/xsttrp/xsttrp56, 570.53, 571.30, 571.30, 571.30, 571.30, 571.30, 571.30, 571.30, 571.30, 571.30, 570.53
+../instances/xsttrp/xsttrp57, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00, 580.00
+../instances/xsttrp/xsttrp58, 562.58, 562.04, 564.22, 562.58, 564.22, 564.09, 564.22, 562.58, 563.79, 564.22, 562.04
+../instances/xsttrp/xsttrp59, 560.75, 560.75, 560.75, 560.75, 560.75, 560.75, 562.70, 560.75, 560.75, 560.75, 560.75
+../instances/xsttrp/xsttrp60, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86, 645.86
+../instances/xsttrp/xsttrp61, 780.55, 780.28, 783.45, 779.72, 780.45, 782.23, 780.50, 780.55, 779.99, 780.55, 779.72
+../instances/xsttrp/xsttrp62, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40, 642.40
+../instances/xsttrp/xsttrp63, 717.47, 717.47, 717.47, 718.36, 717.47, 717.55, 717.47, 717.57, 717.47, 717.47, 717.47
+../instances/xsttrp/xsttrp64, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56, 557.56
+../instances/xsttrp/xsttrp65, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54, 553.54
+../instances/xsttrp/xsttrp66, 871.42, 872.00, 872.26, 871.60, 871.12, 869.96, 871.71, 870.82, 869.96, 871.38, 869.96
+../instances/xsttrp/xsttrp67, 908.08, 910.12, 911.59, 913.38, 913.62, 910.30, 911.18, 912.75, 911.01, 908.30, 908.08
+../instances/xsttrp/xsttrp68, 861.82, 862.04, 862.04, 861.18, 861.43, 864.26, 862.04, 862.04, 861.43, 862.04, 861.18
+../instances/xsttrp/xsttrp69, 895.31, 896.85, 897.10, 894.29, 898.53, 893.99, 892.13, 893.87, 894.49, 886.34, 886.34
+../instances/xsttrp/xsttrp70, 833.12, 828.37, 830.79, 832.05, 830.46, 830.38, 829.76, 830.72, 832.41, 833.36, 828.37
+../instances/xsttrp/xsttrp71, 874.23, 880.67, 876.59, 879.95, 880.07, 876.69, 879.79, 879.76, 879.27, 876.66, 874.23
+../instances/xsttrp/xsttrp72, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01, 456.01
+../instances/xsttrp/xsttrp73, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42, 485.42
+../instances/xsttrp/xsttrp74, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69, 573.69
+../instances/xsttrp/xsttrp75, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97, 660.97
+../instances/xsttrp/xsttrp76, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98, 567.98
+../instances/xsttrp/xsttrp77, 594.29, 594.39, 594.39, 594.29, 594.29, 594.29, 594.39, 594.29, 594.29, 594.29, 594.29
+
+
+
+
+
+
+
+Set-partitioning post-optimization
+
+== Summary ==
+Average improvement = 0.19
+(Average best improvement = 0.34)
+Average percentage time = 9.06
+Average pool size = 2619.22
+
+
+
+
+
+
+
+Seeds (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- a column for each runs which identifies the seed used in that run (run N)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9
+../instances/xsttrp/xsttrp1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp2, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp3, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp4, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp5, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp6, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp7, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp8, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp10, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp12, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp13, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp14, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp15, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp16, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp17, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp18, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp19, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp20, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp21, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp22, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp23, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp24, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp25, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp26, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp27, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp28, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp29, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp32, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp33, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp34, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp35, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp36, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp37, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp38, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp39, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp40, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp41, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp42, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp43, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp44, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp45, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp46, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp47, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp48, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp49, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp50, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp51, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp52, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp53, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp54, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp55, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp56, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp57, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp58, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp59, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp60, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp61, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp62, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp63, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp64, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp65, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp66, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp67, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp68, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp69, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp70, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp71, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp72, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp73, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp74, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp75, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp76, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/xsttrp/xsttrp77, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+This file summarizes the results obtained with AVXS.
+ The level of details depends on the preprocessor directives used to compile the algorithm.
+ The results are aggregated over the runs and over the instances.
+
+
+
+
+
+
+
+Assignment fitness function
+- default values
+-- 1-near for problems with fixed costs
+-- 5-near otherwise
+
+
+
+
+
+
+
+Objective value and timings (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- the best known solution (bks)
+- the best gap over the runs (best)
+- the average gap over the runs (avg)
+- the worst gap over the runs (worst)
+- the total time to perform the runs in seconds (t)
+
+instance, bks, best, avg, worst, t
+../instances/lrp_tuzun/coordP111112.dat, 1467.68, 0.00, 0.00, 0.04, 110
+../instances/lrp_tuzun/coordP111122.dat, 1448.37, 0.00, 0.03, 0.06, 184
+../instances/lrp_tuzun/coordP111212.dat, 1394.80, 0.00, 0.00, 0.01, 103
+../instances/lrp_tuzun/coordP111222.dat, 1432.29, 0.00, 0.21, 2.08, 201
+../instances/lrp_tuzun/coordP112112.dat, 1167.16, 0.00, 0.12, 0.33, 598
+../instances/lrp_tuzun/coordP112122.dat, 1102.24, 0.00, 0.00, 0.01, 593
+../instances/lrp_tuzun/coordP112212.dat, 791.66, 0.00, 0.01, 0.15, 126
+../instances/lrp_tuzun/coordP112222.dat, 728.30, 0.00, 0.00, 0.00, 133
+../instances/lrp_tuzun/coordP113112.dat, 1238.44, 0.00, 0.03, 0.13, 548
+../instances/lrp_tuzun/coordP113122.dat, 1245.30, 0.00, 0.00, 0.01, 443
+../instances/lrp_tuzun/coordP113212.dat, 902.26, 0.00, 0.00, 0.00, 437
+../instances/lrp_tuzun/coordP113222.dat, 1021.31, -0.30, -0.30, -0.30, 504
+../instances/lrp_tuzun/coordP131112.dat, 1866.75, 1.93, 2.46, 3.47, 704
+../instances/lrp_tuzun/coordP131122.dat, 1819.68, 0.25, 1.06, 2.14, 784
+../instances/lrp_tuzun/coordP131212.dat, 1960.02, 0.24, 0.27, 0.38, 425
+../instances/lrp_tuzun/coordP131222.dat, 1792.77, 0.00, 0.26, 0.82, 695
+../instances/lrp_tuzun/coordP132112.dat, 1443.32, 0.00, 0.22, 0.31, 810
+../instances/lrp_tuzun/coordP132122.dat, 1429.30, 0.86, 1.24, 1.50, 904
+../instances/lrp_tuzun/coordP132212.dat, 1204.42, 0.10, 0.20, 0.46, 709
+../instances/lrp_tuzun/coordP132222.dat, 924.68, 0.70, 0.79, 0.89, 764
+../instances/lrp_tuzun/coordP133112.dat, 1694.18, 0.08, 0.58, 1.52, 707
+../instances/lrp_tuzun/coordP133122.dat, 1392.01, 0.37, 0.60, 0.79, 871
+../instances/lrp_tuzun/coordP133212.dat, 1197.95, 0.00, 0.01, 0.02, 423
+../instances/lrp_tuzun/coordP133222.dat, 1151.37, 0.07, 0.15, 0.25, 753
+../instances/lrp_tuzun/coordP121112.dat, 2237.73, 0.03, 0.66, 1.18, 892
+../instances/lrp_tuzun/coordP121122.dat, 2137.45, 0.15, 1.02, 3.66, 864
+../instances/lrp_tuzun/coordP121212.dat, 2195.17, 0.00, 0.66, 1.33, 909
+../instances/lrp_tuzun/coordP121222.dat, 2214.86, 0.51, 1.44, 2.43, 980
+../instances/lrp_tuzun/coordP122112.dat, 2070.43, 0.61, 1.31, 1.94, 974
+../instances/lrp_tuzun/coordP122122.dat, 1685.52, 0.86, 1.76, 2.90, 1047
+../instances/lrp_tuzun/coordP122212.dat, 1449.93, 1.20, 1.44, 1.56, 979
+../instances/lrp_tuzun/coordP122222.dat, 1082.46, 0.02, 0.07, 0.25, 944
+../instances/lrp_tuzun/coordP123112.dat, 1942.23, 1.38, 1.64, 1.76, 999
+../instances/lrp_tuzun/coordP123122.dat, 1910.08, 0.09, 0.53, 1.79, 1075
+../instances/lrp_tuzun/coordP123212.dat, 1761.11, 0.34, 0.73, 1.21, 1099
+../instances/lrp_tuzun/coordP123222.dat, 1390.86, -0.01, 0.01, 0.04, 743
+
+
+== Summary ==
+Average best gap = 0.26
+Average avg gap = 0.53
+Average worst gap = 0.98
+Average total time (10 runs) = 667.61
+== New best solutions ==
+../instances/lrp_tuzun/coordP113222.dat with cost 1018.29
+
+
+
+
+
+
+
+Absolute costs (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- for each run the value of the objective function for the best found solution (run N)
+- the best objective function value (best)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, best
+../instances/lrp_tuzun/coordP111112.dat, 1467.68, 1467.68, 1467.68, 1467.68, 1467.68, 1467.68, 1468.29, 1467.68, 1467.68, 1467.68, 1467.68
+../instances/lrp_tuzun/coordP111122.dat, 1448.37, 1449.20, 1448.37, 1449.20, 1448.37, 1449.20, 1449.20, 1449.20, 1449.20, 1448.37, 1448.37
+../instances/lrp_tuzun/coordP111212.dat, 1394.80, 1394.80, 1394.80, 1394.80, 1394.80, 1394.80, 1394.80, 1394.93, 1394.80, 1394.80, 1394.80
+../instances/lrp_tuzun/coordP111222.dat, 1432.29, 1432.29, 1432.93, 1432.29, 1462.15, 1432.29, 1432.29, 1432.29, 1432.29, 1432.29, 1432.29
+../instances/lrp_tuzun/coordP112112.dat, 1169.88, 1167.16, 1171.04, 1169.88, 1167.16, 1167.16, 1168.53, 1167.16, 1171.04, 1167.16, 1167.16
+../instances/lrp_tuzun/coordP112122.dat, 1102.24, 1102.24, 1102.24, 1102.24, 1102.24, 1102.38, 1102.24, 1102.24, 1102.24, 1102.24, 1102.24
+../instances/lrp_tuzun/coordP112212.dat, 791.66, 791.66, 791.66, 791.66, 791.66, 791.66, 791.66, 792.84, 791.66, 791.66, 791.66
+../instances/lrp_tuzun/coordP112222.dat, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30, 728.30
+../instances/lrp_tuzun/coordP113112.dat, 1238.49, 1238.49, 1238.49, 1238.49, 1239.41, 1239.41, 1238.49, 1238.49, 1240.05, 1238.49, 1238.49
+../instances/lrp_tuzun/coordP113122.dat, 1245.31, 1245.31, 1245.31, 1245.31, 1245.31, 1245.31, 1245.31, 1245.31, 1245.31, 1245.42, 1245.31
+../instances/lrp_tuzun/coordP113212.dat, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26, 902.26
+../instances/lrp_tuzun/coordP113222.dat, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29, 1018.29
+../instances/lrp_tuzun/coordP131112.dat, 1902.77, 1909.63, 1922.64, 1905.47, 1926.38, 1931.59, 1905.18, 1903.45, 1916.59, 1903.02, 1902.77
+../instances/lrp_tuzun/coordP131122.dat, 1825.82, 1846.24, 1834.10, 1824.25, 1849.51, 1858.67, 1840.76, 1828.72, 1833.53, 1848.53, 1824.25
+../instances/lrp_tuzun/coordP131212.dat, 1965.12, 1965.12, 1965.12, 1965.12, 1967.44, 1965.12, 1964.75, 1965.12, 1965.12, 1965.12, 1964.75
+../instances/lrp_tuzun/coordP131222.dat, 1792.77, 1792.77, 1800.99, 1795.98, 1795.84, 1795.84, 1800.85, 1795.84, 1795.84, 1807.49, 1792.77
+../instances/lrp_tuzun/coordP132112.dat, 1447.66, 1445.75, 1447.20, 1446.53, 1446.86, 1446.55, 1443.32, 1446.12, 1447.27, 1447.82, 1443.32
+../instances/lrp_tuzun/coordP132122.dat, 1447.47, 1445.74, 1449.20, 1446.47, 1445.03, 1448.66, 1446.87, 1441.66, 1448.20, 1450.69, 1441.66
+../instances/lrp_tuzun/coordP132212.dat, 1206.15, 1208.08, 1206.25, 1206.73, 1209.99, 1206.56, 1207.42, 1205.62, 1205.72, 1206.27, 1205.62
+../instances/lrp_tuzun/coordP132222.dat, 931.55, 932.61, 932.35, 931.52, 931.90, 932.41, 931.17, 931.44, 932.14, 932.95, 931.17
+../instances/lrp_tuzun/coordP133112.dat, 1719.97, 1698.13, 1717.28, 1699.55, 1695.89, 1706.01, 1697.99, 1695.87, 1695.56, 1713.57, 1695.56
+../instances/lrp_tuzun/coordP133122.dat, 1400.71, 1400.99, 1399.83, 1402.95, 1399.83, 1400.50, 1402.03, 1400.85, 1397.18, 1399.22, 1397.18
+../instances/lrp_tuzun/coordP133212.dat, 1198.19, 1198.08, 1198.19, 1198.19, 1198.19, 1198.06, 1197.95, 1197.95, 1197.95, 1198.19, 1197.95
+../instances/lrp_tuzun/coordP133222.dat, 1153.75, 1154.30, 1152.49, 1154.20, 1153.04, 1152.34, 1152.87, 1152.81, 1152.23, 1152.44, 1152.23
+../instances/lrp_tuzun/coordP121112.dat, 2257.71, 2254.63, 2238.34, 2257.19, 2250.92, 2251.94, 2257.29, 2244.18, 2264.19, 2248.04, 2238.34
+../instances/lrp_tuzun/coordP121122.dat, 2168.48, 2142.45, 2178.70, 2144.68, 2140.85, 2140.57, 2215.61, 2160.06, 2153.50, 2147.00, 2140.57
+../instances/lrp_tuzun/coordP121212.dat, 2206.24, 2218.02, 2203.86, 2224.41, 2213.55, 2195.17, 2218.38, 2205.58, 2203.86, 2206.76, 2195.17
+../instances/lrp_tuzun/coordP121222.dat, 2251.85, 2254.16, 2226.14, 2245.85, 2243.93, 2236.16, 2253.02, 2233.04, 2255.61, 2268.69, 2226.14
+../instances/lrp_tuzun/coordP122112.dat, 2090.64, 2096.22, 2096.75, 2083.04, 2100.34, 2103.56, 2092.63, 2110.64, 2102.90, 2099.77, 2083.04
+../instances/lrp_tuzun/coordP122122.dat, 1711.50, 1707.22, 1734.41, 1707.84, 1722.91, 1700.09, 1703.88, 1733.30, 1720.62, 1709.56, 1700.09
+../instances/lrp_tuzun/coordP122212.dat, 1472.55, 1471.07, 1470.91, 1472.27, 1471.05, 1471.04, 1471.19, 1469.04, 1467.32, 1471.33, 1467.32
+../instances/lrp_tuzun/coordP122222.dat, 1082.73, 1083.30, 1082.68, 1082.74, 1082.70, 1082.68, 1085.20, 1083.62, 1083.53, 1082.73, 1082.68
+../instances/lrp_tuzun/coordP123112.dat, 1975.21, 1973.59, 1975.35, 1975.76, 1974.97, 1973.35, 1975.87, 1968.97, 1970.54, 1976.40, 1968.97
+../instances/lrp_tuzun/coordP123122.dat, 1911.73, 1912.17, 1918.35, 1928.16, 1920.80, 1926.81, 1912.21, 1911.76, 1944.31, 1914.91, 1911.73
+../instances/lrp_tuzun/coordP123212.dat, 1768.92, 1771.05, 1775.14, 1780.16, 1782.38, 1778.29, 1767.09, 1772.47, 1775.00, 1768.73, 1767.09
+../instances/lrp_tuzun/coordP123222.dat, 1390.74, 1390.74, 1391.05, 1391.05, 1391.05, 1391.05, 1391.17, 1390.83, 1390.83, 1391.36, 1390.74
+
+
+
+
+
+
+
+Set-partitioning post-optimization
+
+== Summary ==
+Average improvement = 0.34
+(Average best improvement = 0.75)
+Average percentage time = 54.88
+Average pool size = 14361.46
+
+
+
+
+
+
+
+Seeds (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- a column for each runs which identifies the seed used in that run (run N)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9
+../instances/lrp_tuzun/coordP111112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP111122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP111212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP111222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP112112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP112122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP112212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP112222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP113112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP113122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP113212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP113222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP131112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP131122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP131212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP131222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP132112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP132122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP132212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP132222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP133112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP133122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP133212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP133222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP121112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP121122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP121212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP121222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP122112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP122122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP122212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP122222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP123112.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP123122.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP123212.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/lrp_tuzun/coordP123222.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+
+
+
+
+

@@ -107,7 +107,7 @@
 ../instances/xsttrp/xsttrp43	784.69
 ../instances/xsttrp/xsttrp44	758.83
 ../instances/xsttrp/xsttrp45	773.22
-../instances/xsttrp/xsttrp46	1041.34
+../instances/xsttrp/xsttrp46	1041.28
 ../instances/xsttrp/xsttrp47	1088.01
 ../instances/xsttrp/xsttrp48	1009.89
 ../instances/xsttrp/xsttrp49	1072.64

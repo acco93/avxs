@@ -1,0 +1,194 @@
+This file summarizes the results obtained with AVXS.
+ The level of details depends on the preprocessor directives used to compile the algorithm.
+ The results are aggregated over the runs and over the instances.
+
+
+
+
+
+
+
+Assignment fitness function
+- default values
+-- 1-near for problems with fixed costs
+-- 5-near otherwise
+
+
+
+
+
+
+
+Objective value and timings (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- the best known solution (bks)
+- the best gap over the runs (best)
+- the average gap over the runs (avg)
+- the worst gap over the runs (worst)
+- the total time to perform the runs in seconds (t)
+
+instance, bks, best, avg, worst, t
+../instances/STTRPSD/STTRP-25-5-1-c.dat, 405.46, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-5-2-c.dat, 374.79, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-5-1-rd.dat, 584.03, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-5-2-rd.dat, 508.48, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-10-1-c.dat, 386.45, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-10-2-c.dat, 380.86, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-10-1-rd.dat, 573.96, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-25-10-2-rd.dat, 506.37, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-5-1-c.dat, 583.07, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-5-2-c.dat, 516.98, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-5-1-rd.dat, 870.51, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-5-2-rd.dat, 766.03, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-10-1-c.dat, 387.83, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-10-2-c.dat, 367.01, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-10-1-rd.dat, 811.28, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-50-10-2-rd.dat, 731.53, 0.00, 0.00, 0.00, 10
+../instances/STTRPSD/STTRP-100-10-1-c.dat, 614.02, 0.00, 0.00, 0.00, 54
+../instances/STTRPSD/STTRP-100-10-2-c.dat, 547.44, 0.00, 0.00, 0.00, 30
+../instances/STTRPSD/STTRP-100-10-1-rd.dat, 1275.76, -0.31, -0.31, -0.31, 70
+../instances/STTRPSD/STTRP-100-10-2-rd.dat, 1097.28, 0.00, 0.00, 0.00, 57
+../instances/STTRPSD/STTRP-100-20-1-c.dat, 642.61, 0.00, 0.00, 0.00, 59
+../instances/STTRPSD/STTRP-100-20-2-c.dat, 581.56, 0.00, 0.00, 0.00, 40
+../instances/STTRPSD/STTRP-100-20-1-rd.dat, 1143.10, 0.00, 0.00, 0.00, 54
+../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1060.75, 0.17, 0.26, 0.27, 66
+../instances/STTRPSD/STTRP-200-10-1-c.dat, 822.52, -0.31, -0.31, -0.31, 306
+../instances/STTRPSD/STTRP-200-10-2-c.dat, 714.33, -0.51, -0.44, -0.30, 232
+../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1761.10, -0.32, -0.32, -0.25, 413
+../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.94, -0.06, -0.02, 0.00, 240
+../instances/STTRPSD/STTRP-200-20-1-c.dat, 909.46, -0.25, -0.25, -0.25, 285
+../instances/STTRPSD/STTRP-200-20-2-c.dat, 815.51, -0.13, -0.12, -0.09, 188
+../instances/STTRPSD/STTRP-200-20-1-rd.dat, 1614.18, -0.22, -0.22, -0.22, 322
+../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 0.00, 0.00, 0.01, 260
+
+
+== Summary ==
+Average best gap = -0.06
+Average avg gap = -0.05
+Average worst gap = -0.05
+Average total time (10 runs) = 88.62
+== New best solutions ==
+../instances/STTRPSD/STTRP-100-10-1-rd.dat with cost 1271.78
+../instances/STTRPSD/STTRP-200-10-1-c.dat with cost 819.96
+../instances/STTRPSD/STTRP-200-10-2-c.dat with cost 710.70
+../instances/STTRPSD/STTRP-200-10-1-rd.dat with cost 1755.41
+../instances/STTRPSD/STTRP-200-10-2-rd.dat with cost 1445.05
+../instances/STTRPSD/STTRP-200-20-1-c.dat with cost 907.17
+../instances/STTRPSD/STTRP-200-20-2-c.dat with cost 814.42
+../instances/STTRPSD/STTRP-200-20-1-rd.dat with cost 1610.62
+
+
+
+
+
+
+
+Absolute costs (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- for each run the value of the objective function for the best found solution (run N)
+- the best objective function value (best)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, best
+../instances/STTRPSD/STTRP-25-5-1-c.dat, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46, 405.46
+../instances/STTRPSD/STTRP-25-5-2-c.dat, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79, 374.79
+../instances/STTRPSD/STTRP-25-5-1-rd.dat, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03, 584.03
+../instances/STTRPSD/STTRP-25-5-2-rd.dat, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48, 508.48
+../instances/STTRPSD/STTRP-25-10-1-c.dat, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45, 386.45
+../instances/STTRPSD/STTRP-25-10-2-c.dat, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86, 380.86
+../instances/STTRPSD/STTRP-25-10-1-rd.dat, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96, 573.96
+../instances/STTRPSD/STTRP-25-10-2-rd.dat, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37, 506.37
+../instances/STTRPSD/STTRP-50-5-1-c.dat, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07, 583.07
+../instances/STTRPSD/STTRP-50-5-2-c.dat, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98, 516.98
+../instances/STTRPSD/STTRP-50-5-1-rd.dat, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51, 870.51
+../instances/STTRPSD/STTRP-50-5-2-rd.dat, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03, 766.03
+../instances/STTRPSD/STTRP-50-10-1-c.dat, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83, 387.83
+../instances/STTRPSD/STTRP-50-10-2-c.dat, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01, 367.01
+../instances/STTRPSD/STTRP-50-10-1-rd.dat, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28, 811.28
+../instances/STTRPSD/STTRP-50-10-2-rd.dat, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53, 731.53
+../instances/STTRPSD/STTRP-100-10-1-c.dat, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02, 614.02
+../instances/STTRPSD/STTRP-100-10-2-c.dat, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44, 547.44
+../instances/STTRPSD/STTRP-100-10-1-rd.dat, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78, 1271.78
+../instances/STTRPSD/STTRP-100-10-2-rd.dat, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28, 1097.28
+../instances/STTRPSD/STTRP-100-20-1-c.dat, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61
+../instances/STTRPSD/STTRP-100-20-2-c.dat, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56
+../instances/STTRPSD/STTRP-100-20-1-rd.dat, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10
+../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1063.58, 1063.58, 1062.57, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1062.57
+../instances/STTRPSD/STTRP-200-10-1-c.dat, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96
+../instances/STTRPSD/STTRP-200-10-2-c.dat, 710.70, 711.73, 710.70, 712.17, 710.70, 711.73, 710.70, 710.70, 712.17, 710.70, 710.70
+../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1756.72, 1755.41, 1755.41, 1755.41, 1755.41
+../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.05, 1445.94, 1445.94, 1445.94, 1445.05, 1445.94, 1445.94, 1445.05, 1445.94, 1445.94, 1445.05
+../instances/STTRPSD/STTRP-200-20-1-c.dat, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17
+../instances/STTRPSD/STTRP-200-20-2-c.dat, 814.76, 814.76, 814.42, 814.42, 814.42, 814.42, 814.42, 814.42, 814.76, 814.42, 814.42
+../instances/STTRPSD/STTRP-200-20-1-rd.dat, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62
+../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.53, 1413.32
+
+
+
+
+
+
+
+Set-partitioning post-optimization
+
+== Summary ==
+Average improvement = 0.06
+(Average best improvement = 0.10)
+Average percentage time = 4.55
+Average pool size = 5124.55
+
+
+
+
+
+
+
+Seeds (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- a column for each runs which identifies the seed used in that run (run N)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9
+../instances/STTRPSD/STTRP-25-5-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-5-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-5-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-5-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-10-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-10-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-10-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-25-10-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-5-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-5-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-5-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-5-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-10-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-10-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-10-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-50-10-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-10-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-10-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-10-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-10-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-20-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-20-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-20-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-100-20-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-10-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-10-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-10-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-10-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-20-1-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-20-2-c.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-20-1-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/STTRPSD/STTRP-200-20-2-rd.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+
+
+
+
+

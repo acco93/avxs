@@ -75,7 +75,7 @@ Average worst gap = 0.98
 Average total time (10 runs) = 667.61
 == New best solutions ==
 ../instances/lrp_tuzun/coordP113222.dat with cost 1018.29
-
+../instances/lrp_tuzun/coordP123222.dat with cost 1390.74
 
 
 

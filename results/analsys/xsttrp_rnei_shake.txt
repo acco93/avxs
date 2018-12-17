@@ -322,23 +322,23 @@ Aggregate RNEI results
 RELOCATE
 	Percentage improvement	55.84
 	Percentage applications	38.04
-	RNEI	33.38
+	Percentage RNEI	33.38
 SWAP
 	Percentage improvement	7.79
 	Percentage applications	12.09
-	RNEI	14.66
+	Percentage RNEI	14.66
 TWOPT
 	Percentage improvement	15.86
 	Percentage applications	20.27
-	RNEI	17.79
+	Percentage RNEI	17.79
 ROOTREF
 	Percentage improvement	8.38
 	Percentage applications	17.85
-	RNEI	10.67
+	Percentage RNEI	10.67
 SEGSWAP
 	Percentage improvement	12.14
 	Percentage applications	11.75
-	RNEI	23.50
+	Percentage RNEI	23.50
 
 
 

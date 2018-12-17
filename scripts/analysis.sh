@@ -10,18 +10,6 @@ if ! [ -x "$(command -v cmake)" ]; then
   exit 1
 fi
 
-if ! [ -x "$(command -v pdftk)" ]; then
-  echo 'Error: pdftk is not installed. Needed to create pdf files.' >&2
-  exit 1
-fi
-
-if ! [ -x "$(command -v pdflatex)" ]; then
-  echo 'Error: pdflatex is not installed. Needed to compile tex files.' >&2
-  exit 1
-fi
-
-
-
 instances_path=../instances
 
 (cd ../source/ && cmake -DCMAKE_BUILD_TYPE=Release . )

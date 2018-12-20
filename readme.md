@@ -12,37 +12,37 @@ Stable version of the `AVXS` algorithm described in the paper.
 <!--te-->
 
 #### Introduction
-Truck and trailer routing problems is a very well studied category of vehicle routing problems in which vehicle capacities may be augmented with trailers. The literature contains several variations that enrich such basic setting by adding particular constraints to better model specific scenarios.
+Truck and trailer routing problems are a very well studied class of vehicle routing problems in which vehicle capacities may be augmented with trailers. The literature contains several variations on this basic settings for these problems that add specific constraints modeling specific scenarios.
 
 
-In this paper, we study the Extended Single Truck and Trailer Routing Problem which generalizes a set of existing truck and trailer routing problems by including a variety of vertex types previously independently considered in different problem variants: namely, truck customers, vehicle customers with and without parking facility, and pure parking locations.
+This paper studies the Extended Single Truck and Trailer Routing Problem which generalizes a set of existing truck and trailer routing problems by including a variety of vertex types previously only considered separately: truck customers, vehicle customers with and without parking facilities, and parking-only locations.
 
 
-The XSTTRP consists in servicing a set of customers with known demand by using a single vehicle composed of a capacitated truck and a non-autonomous and detachable trailer that is initially located at a main depot.
+The XSTTRP calls for servicing a set of customers with known demand by using a single vehicle, composed of a capacitated truck and a non-autonomous, detachable trailer, which is initially located at a (main) depot.
 
 
 The customers are partitioned in two different sets: *truck customers* and *vehicle customers*.
 
 
-Truck customers must be visited by the truck only, while vehicle customers can be served either by the whole vehicle or just by the truck.
+The *accessibility constraints* impose that truck customers must be visited by the truck only, while vehicle customers can be served either by the whole vehicle or just by the truck.
 
 
-Vehicle customers are, in turn, split into vehicle customers *with parking facility* and vehicle customers *without parking facility*.
+Vehicle customers are, in turn, split into vehicle customers *with parking facilities* and vehicle customers *without parking facilities*.
 
 
-The problem contains an additional set of *satellite depots*, which are pure parking locations and may be possibly visited to park the trailer whenever necessary.
+The problem contains an additional set of *satellite depots* (or just satellites), locations (which are not customers) where the trailer may be parked whenever necessary.
 
 
-An XSTTRP solution is made up by a *main-route*, traveled by the complete vehicle, which starts from the main depot, visits a subset of vehicle customers and satellite depots and returns to the depot.
+An XSTTRP solution is made up by a *main-route* traveled by the complete vehicle, which starts from the main depot, visits a subset of vehicle customers and satellite depots and returns to the depot.
 
 
-At each visited parking location (i.e., either satellite depots or vehicle customers with parking facility) the vehicle can detach its trailer, serve a subset of customers with the truck and return to the parking location to pick-up the trailer. We call this a *sub-route* and the place where the trailer has been decoupled the *root* of the sub-route.
+When the vehicle visits a parking location (either a satellite depot or a vehicle customer with parking facilities) it can detach its trailer, serve a subset of customers with the truck and return to the parking location to pick up the trailer. We call this a *sub-route*, and the place where the trailer has been decoupled is the *root* of the sub-route.
 
 
-The objective is to serve all customers in a way that minimize the total traveling cost, while  respecting the truck capacity along the sub-routes and taking into account the accessibility constraints.
+The objective is to find a solution which serves all customers while minimizing the total traveling costs and respecting both the truck capacity along sub-routes and the accessibility constraints.
 
 
-We developed a comprehensive, still effective, heuristic solution approach for this class of problems. The proposed algorithm is extensively tested  on XSTTRP instances, as well as on some known problems which arise as special cases of the model, such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots and the Single Truck and Trailer Routing Problem.
+We developed a comprehensive, yet effective, heuristic solution approach for the XSTTRP. The resulting metaheuristic has been extensively tested on many instances, including special cases involving known problems such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots and the Single Truck and Trailer Routing Problem.
 
 #### Software
 - `avxs` algorithm [Stable version](https://github.com/acco93/avxs/archive/master.zip) [Active repository](#)
@@ -78,7 +78,7 @@ To successfully execute `scripts/run.sh`
 - `pdflatex`
 
 
-\* suggested despite not mandatory. Previous recent versions *should* be usable too.
+\* suggested version. Previous (recent) versions *should* working too.
 
 #### Build options
 You can provide the following optional cmake options.

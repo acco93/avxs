@@ -63,7 +63,7 @@ The stable version of `AVXS` contains the following directories and files
 - `bks.txt` contains the list of best known solution values for the considered instances. It is used to compute the gap within the algorithm.
 
 #### Requirements
-The following programs are needed either to build the code or to perform some extra tasks such as creating pdf files with a graphical representation of the solutions.
+The following programs are needed either to build the code or to perform some extra tasks such as creating pdf files with a graphical representation of the solutions. 
 
 To correctly compile and build the executable and to execute `scripts/build.sh` are required
 - `cmake` >= 3.10
@@ -79,6 +79,7 @@ To successfully execute `scripts/run.sh`
 
 
 \* suggested version. Previous (recent) versions *should* working too.
+Check also the `source/CMakeLists.txt` and set the correct `cplex` path.
 
 #### Build options
 You can provide the following optional cmake options.
@@ -107,7 +108,7 @@ You can provide the following optional command line arguments
 - `round-results N` integer value, it specifies to use `N` decimal places in showing the results. Default is `2`.
 - `tex-picture` for each instance and for each run a .tex file corresponding to the graphical representation of the solution is generated.
 
-All arguments must be provided with `--`, see the example below. Argument can be given in any order.
+All arguments must be provided with `--`, see the example below. Arguments can be given in any order.
 
 `./avxs --files ../instances/xsttrp/xsttrp25 ../instances/mdvrp/p18 --runs 5 --tex-pictures --log file.txt`
 

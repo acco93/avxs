@@ -107,7 +107,7 @@ You can provide the following optional command line arguments
 - `round-results N` integer value, it specifies to use `N` decimal places in showing the results. Default is `2`.
 - `tex-picture` for each instance and for each run a .tex file corresponding to the graphical representation of the solution is generated.
 
-All arguments must be provided with `--`, see the example below. Argument can be given in any order.
+All arguments must be provided with `--`, see the example below. Arguments can be given in any order.
 
 `./avxs --files ../instances/xsttrp/xsttrp25 ../instances/mdvrp/p18 --runs 5 --tex-pictures --log file.txt`
 

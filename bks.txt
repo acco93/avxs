@@ -100,7 +100,7 @@
 ../instances/xsttrp/xsttrp36	948.9
 ../instances/xsttrp/xsttrp37	980.8
 ../instances/xsttrp/xsttrp38	931.48
-../instances/xsttrp/xsttrp39	965.11
+../instances/xsttrp/xsttrp39	963.67
 ../instances/xsttrp/xsttrp40	900.62
 ../instances/xsttrp/xsttrp41	929.96
 ../instances/xsttrp/xsttrp42	787.71
@@ -108,7 +108,7 @@
 ../instances/xsttrp/xsttrp44	758.79
 ../instances/xsttrp/xsttrp45	773.22
 ../instances/xsttrp/xsttrp46	1040.68
-../instances/xsttrp/xsttrp47	1086.11
+../instances/xsttrp/xsttrp47	1085.86
 ../instances/xsttrp/xsttrp48	1009.72
 ../instances/xsttrp/xsttrp49	1069.28
 ../instances/xsttrp/xsttrp50	972.13
@@ -129,10 +129,10 @@
 ../instances/xsttrp/xsttrp65	553.54
 ../instances/xsttrp/xsttrp66	869.25
 ../instances/xsttrp/xsttrp67	898.64
-../instances/xsttrp/xsttrp68	858.66
+../instances/xsttrp/xsttrp68	858.61
 ../instances/xsttrp/xsttrp69	878.07
-../instances/xsttrp/xsttrp70	826.35
-../instances/xsttrp/xsttrp71	862.6
+../instances/xsttrp/xsttrp70	825.73
+../instances/xsttrp/xsttrp71	860.21
 ../instances/xsttrp/xsttrp72	456.01
 ../instances/xsttrp/xsttrp73	485.42
 ../instances/xsttrp/xsttrp74	573.69

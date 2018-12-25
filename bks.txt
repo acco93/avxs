@@ -101,8 +101,8 @@
 ../instances/xsttrp/xsttrp37	980.8
 ../instances/xsttrp/xsttrp38	931.48
 ../instances/xsttrp/xsttrp39	963.67
-../instances/xsttrp/xsttrp40	900.62
-../instances/xsttrp/xsttrp41	929.96
+../instances/xsttrp/xsttrp40	900.43
+../instances/xsttrp/xsttrp41	929.58
 ../instances/xsttrp/xsttrp42	787.71
 ../instances/xsttrp/xsttrp43	784.69
 ../instances/xsttrp/xsttrp44	758.79
@@ -127,7 +127,7 @@
 ../instances/xsttrp/xsttrp63	717.47
 ../instances/xsttrp/xsttrp64	557.56
 ../instances/xsttrp/xsttrp65	553.54
-../instances/xsttrp/xsttrp66	869.25
+../instances/xsttrp/xsttrp66	869.02
 ../instances/xsttrp/xsttrp67	898.64
 ../instances/xsttrp/xsttrp68	858.61
 ../instances/xsttrp/xsttrp69	878.07
@@ -211,3 +211,4 @@
 ../instances/bartolini/chao_10.40.dat	502.2
 ../instances/bartolini/chao_11.40.dat	500.7
 ../instances/bartolini/chao_12.40.dat	576.6
+

@@ -11,7 +11,7 @@ This file summarizes the results obtained with AVXS.
 Assignment fitness function
 - default values
 -- 1-near for problems with fixed costs
--- 5-near otherwise
+-- 25-near otherwise
 
 
 
@@ -31,51 +31,52 @@ For each instance, the table contains the following columns
 
 instance, bks, best, avg, worst, t
 ../instances/lrp_tuzun/coordP111112.dat, 1467.68, 0.00, 0.00, 0.04, 110
-../instances/lrp_tuzun/coordP111122.dat, 1448.37, 0.00, 0.03, 0.06, 184
-../instances/lrp_tuzun/coordP111212.dat, 1394.80, 0.00, 0.00, 0.01, 103
-../instances/lrp_tuzun/coordP111222.dat, 1432.29, 0.00, 0.21, 2.08, 201
-../instances/lrp_tuzun/coordP112112.dat, 1167.16, 0.00, 0.12, 0.33, 598
-../instances/lrp_tuzun/coordP112122.dat, 1102.24, 0.00, 0.00, 0.01, 593
-../instances/lrp_tuzun/coordP112212.dat, 791.66, 0.00, 0.01, 0.15, 126
-../instances/lrp_tuzun/coordP112222.dat, 728.30, 0.00, 0.00, 0.00, 133
-../instances/lrp_tuzun/coordP113112.dat, 1238.44, 0.00, 0.03, 0.13, 548
-../instances/lrp_tuzun/coordP113122.dat, 1245.30, 0.00, 0.00, 0.01, 443
-../instances/lrp_tuzun/coordP113212.dat, 902.26, 0.00, 0.00, 0.00, 437
-../instances/lrp_tuzun/coordP113222.dat, 1021.31, -0.30, -0.30, -0.30, 504
+../instances/lrp_tuzun/coordP111122.dat, 1448.37, 0.00, 0.03, 0.06, 183
+../instances/lrp_tuzun/coordP111212.dat, 1394.80, 0.00, 0.00, 0.01, 100
+../instances/lrp_tuzun/coordP111222.dat, 1432.29, 0.00, 0.21, 2.08, 198
+../instances/lrp_tuzun/coordP112112.dat, 1167.16, 0.00, 0.12, 0.33, 588
+../instances/lrp_tuzun/coordP112122.dat, 1102.24, 0.00, 0.00, 0.01, 584
+../instances/lrp_tuzun/coordP112212.dat, 791.66, 0.00, 0.01, 0.15, 124
+../instances/lrp_tuzun/coordP112222.dat, 728.30, 0.00, 0.00, 0.00, 131
+../instances/lrp_tuzun/coordP113112.dat, 1238.44, 0.00, 0.03, 0.13, 542
+../instances/lrp_tuzun/coordP113122.dat, 1245.30, 0.00, 0.00, 0.01, 438
+../instances/lrp_tuzun/coordP113212.dat, 902.26, 0.00, 0.00, 0.00, 433
+../instances/lrp_tuzun/coordP113222.dat, 1021.31, -0.30, -0.30, -0.30, 499
 ../instances/lrp_tuzun/coordP131112.dat, 1866.75, 1.93, 2.46, 3.47, 704
-../instances/lrp_tuzun/coordP131122.dat, 1819.68, 0.25, 1.06, 2.14, 784
-../instances/lrp_tuzun/coordP131212.dat, 1960.02, 0.24, 0.27, 0.38, 425
-../instances/lrp_tuzun/coordP131222.dat, 1792.77, 0.00, 0.26, 0.82, 695
-../instances/lrp_tuzun/coordP132112.dat, 1443.32, 0.00, 0.22, 0.31, 810
-../instances/lrp_tuzun/coordP132122.dat, 1429.30, 0.86, 1.24, 1.50, 904
-../instances/lrp_tuzun/coordP132212.dat, 1204.42, 0.10, 0.20, 0.46, 709
-../instances/lrp_tuzun/coordP132222.dat, 924.68, 0.70, 0.79, 0.89, 764
-../instances/lrp_tuzun/coordP133112.dat, 1694.18, 0.08, 0.58, 1.52, 707
-../instances/lrp_tuzun/coordP133122.dat, 1392.01, 0.37, 0.60, 0.79, 871
-../instances/lrp_tuzun/coordP133212.dat, 1197.95, 0.00, 0.01, 0.02, 423
-../instances/lrp_tuzun/coordP133222.dat, 1151.37, 0.07, 0.15, 0.25, 753
-../instances/lrp_tuzun/coordP121112.dat, 2237.73, 0.03, 0.66, 1.18, 892
-../instances/lrp_tuzun/coordP121122.dat, 2137.45, 0.15, 1.02, 3.66, 864
-../instances/lrp_tuzun/coordP121212.dat, 2195.17, 0.00, 0.66, 1.33, 909
-../instances/lrp_tuzun/coordP121222.dat, 2214.86, 0.51, 1.44, 2.43, 980
-../instances/lrp_tuzun/coordP122112.dat, 2070.43, 0.61, 1.31, 1.94, 974
-../instances/lrp_tuzun/coordP122122.dat, 1685.52, 0.86, 1.76, 2.90, 1047
-../instances/lrp_tuzun/coordP122212.dat, 1449.93, 1.20, 1.44, 1.56, 979
-../instances/lrp_tuzun/coordP122222.dat, 1082.46, 0.02, 0.07, 0.25, 944
-../instances/lrp_tuzun/coordP123112.dat, 1942.23, 1.38, 1.64, 1.76, 999
-../instances/lrp_tuzun/coordP123122.dat, 1910.08, 0.09, 0.53, 1.79, 1075
-../instances/lrp_tuzun/coordP123212.dat, 1761.11, 0.34, 0.73, 1.21, 1099
-../instances/lrp_tuzun/coordP123222.dat, 1390.86, -0.01, 0.01, 0.04, 743
+../instances/lrp_tuzun/coordP131122.dat, 1819.68, 0.25, 1.06, 2.14, 770
+../instances/lrp_tuzun/coordP131212.dat, 1960.02, 0.24, 0.27, 0.38, 420
+../instances/lrp_tuzun/coordP131222.dat, 1792.77, 0.00, 0.26, 0.82, 688
+../instances/lrp_tuzun/coordP132112.dat, 1443.32, 0.00, 0.22, 0.31, 808
+../instances/lrp_tuzun/coordP132122.dat, 1429.30, 0.86, 1.24, 1.50, 875
+../instances/lrp_tuzun/coordP132212.dat, 1204.42, 0.10, 0.20, 0.46, 699
+../instances/lrp_tuzun/coordP132222.dat, 924.68, 0.70, 0.79, 0.89, 751
+../instances/lrp_tuzun/coordP133112.dat, 1694.18, 0.08, 0.58, 1.52, 705
+../instances/lrp_tuzun/coordP133122.dat, 1392.01, 0.37, 0.60, 0.79, 840
+../instances/lrp_tuzun/coordP133212.dat, 1197.95, 0.00, 0.01, 0.02, 420
+../instances/lrp_tuzun/coordP133222.dat, 1151.37, 0.07, 0.15, 0.25, 725
+../instances/lrp_tuzun/coordP121112.dat, 2237.73, 0.03, 0.66, 1.18, 863
+../instances/lrp_tuzun/coordP121122.dat, 2137.45, 0.15, 1.02, 3.66, 855
+../instances/lrp_tuzun/coordP121212.dat, 2195.17, 0.00, 0.66, 1.33, 883
+../instances/lrp_tuzun/coordP121222.dat, 2214.86, 0.51, 1.44, 2.43, 981
+../instances/lrp_tuzun/coordP122112.dat, 2070.43, 0.61, 1.31, 1.94, 939
+../instances/lrp_tuzun/coordP122122.dat, 1685.52, 0.86, 1.76, 2.90, 1039
+../instances/lrp_tuzun/coordP122212.dat, 1449.93, 1.20, 1.44, 1.56, 936
+../instances/lrp_tuzun/coordP122222.dat, 1082.46, 0.02, 0.07, 0.25, 937
+../instances/lrp_tuzun/coordP123112.dat, 1942.23, 1.38, 1.64, 1.76, 965
+../instances/lrp_tuzun/coordP123122.dat, 1910.08, 0.09, 0.53, 1.79, 1064
+../instances/lrp_tuzun/coordP123212.dat, 1761.11, 0.34, 0.73, 1.21, 1081
+../instances/lrp_tuzun/coordP123222.dat, 1390.86, -0.01, 0.01, 0.04, 736
 
 
 == Summary ==
 Average best gap = 0.26
 Average avg gap = 0.53
 Average worst gap = 0.98
-Average total time (10 runs) = 667.61
+Average total time (10 runs) = 655.94
 == New best solutions ==
 ../instances/lrp_tuzun/coordP113222.dat with cost 1018.29
 ../instances/lrp_tuzun/coordP123222.dat with cost 1390.74
+
 
 
 
@@ -138,7 +139,7 @@ Set-partitioning post-optimization
 == Summary ==
 Average improvement = 0.34
 (Average best improvement = 0.75)
-Average percentage time = 54.88
+Average percentage time = 54.67
 Average pool size = 14361.46
 
 

@@ -11,7 +11,7 @@ This file summarizes the results obtained with AVXS.
 Assignment fitness function
 - default values
 -- 1-near for problems with fixed costs
--- 5-near otherwise
+-- 25-near otherwise
 
 
 
@@ -46,35 +46,34 @@ instance, bks, best, avg, worst, t
 ../instances/STTRPSD/STTRP-50-10-2-c.dat, 367.01, 0.00, 0.00, 0.00, 10
 ../instances/STTRPSD/STTRP-50-10-1-rd.dat, 811.28, 0.00, 0.00, 0.00, 10
 ../instances/STTRPSD/STTRP-50-10-2-rd.dat, 731.53, 0.00, 0.00, 0.00, 10
-../instances/STTRPSD/STTRP-100-10-1-c.dat, 614.02, 0.00, 0.00, 0.00, 54
+../instances/STTRPSD/STTRP-100-10-1-c.dat, 614.02, 0.00, 0.00, 0.00, 58
 ../instances/STTRPSD/STTRP-100-10-2-c.dat, 547.44, 0.00, 0.00, 0.00, 30
-../instances/STTRPSD/STTRP-100-10-1-rd.dat, 1275.76, -0.31, -0.31, -0.31, 70
-../instances/STTRPSD/STTRP-100-10-2-rd.dat, 1097.28, 0.00, 0.00, 0.00, 57
-../instances/STTRPSD/STTRP-100-20-1-c.dat, 642.61, 0.00, 0.00, 0.00, 59
+../instances/STTRPSD/STTRP-100-10-1-rd.dat, 1275.76, -0.31, -0.31, -0.31, 72
+../instances/STTRPSD/STTRP-100-10-2-rd.dat, 1097.28, 0.00, 0.00, 0.00, 52
+../instances/STTRPSD/STTRP-100-20-1-c.dat, 642.61, 0.00, 0.00, 0.00, 65
 ../instances/STTRPSD/STTRP-100-20-2-c.dat, 581.56, 0.00, 0.00, 0.00, 40
-../instances/STTRPSD/STTRP-100-20-1-rd.dat, 1143.10, 0.00, 0.00, 0.00, 54
-../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1060.75, 0.17, 0.26, 0.27, 66
-../instances/STTRPSD/STTRP-200-10-1-c.dat, 822.52, -0.31, -0.31, -0.31, 306
-../instances/STTRPSD/STTRP-200-10-2-c.dat, 714.33, -0.51, -0.44, -0.30, 232
-../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1761.10, -0.32, -0.32, -0.25, 413
-../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.94, -0.06, -0.02, 0.00, 240
-../instances/STTRPSD/STTRP-200-20-1-c.dat, 909.46, -0.25, -0.25, -0.25, 285
-../instances/STTRPSD/STTRP-200-20-2-c.dat, 815.51, -0.13, -0.12, -0.09, 188
-../instances/STTRPSD/STTRP-200-20-1-rd.dat, 1614.18, -0.22, -0.22, -0.22, 322
-../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 0.00, 0.00, 0.01, 260
+../instances/STTRPSD/STTRP-100-20-1-rd.dat, 1143.10, 0.00, 0.00, 0.00, 58
+../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1060.75, 0.01, 0.24, 0.27, 91
+../instances/STTRPSD/STTRP-200-10-1-c.dat, 822.52, -0.31, -0.31, -0.31, 311
+../instances/STTRPSD/STTRP-200-10-2-c.dat, 714.33, -0.51, -0.44, -0.29, 284
+../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1761.10, -0.32, -0.32, -0.32, 418
+../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.94, 0.00, 0.00, 0.00, 255
+../instances/STTRPSD/STTRP-200-20-1-c.dat, 909.46, -0.25, -0.25, -0.25, 319
+../instances/STTRPSD/STTRP-200-20-2-c.dat, 815.51, -0.13, -0.13, -0.09, 227
+../instances/STTRPSD/STTRP-200-20-1-rd.dat, 1614.18, -0.22, -0.22, -0.22, 341
+../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 0.00, 0.00, 0.00, 307
 
 
 == Summary ==
 Average best gap = -0.06
 Average avg gap = -0.05
 Average worst gap = -0.05
-Average total time (10 runs) = 88.62
+Average total time (10 runs) = 96.50
 == New best solutions ==
 ../instances/STTRPSD/STTRP-100-10-1-rd.dat with cost 1271.78
 ../instances/STTRPSD/STTRP-200-10-1-c.dat with cost 819.96
 ../instances/STTRPSD/STTRP-200-10-2-c.dat with cost 710.70
 ../instances/STTRPSD/STTRP-200-10-1-rd.dat with cost 1755.41
-../instances/STTRPSD/STTRP-200-10-2-rd.dat with cost 1445.05
 ../instances/STTRPSD/STTRP-200-20-1-c.dat with cost 907.17
 ../instances/STTRPSD/STTRP-200-20-2-c.dat with cost 814.42
 ../instances/STTRPSD/STTRP-200-20-1-rd.dat with cost 1610.62
@@ -116,15 +115,15 @@ instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, 
 ../instances/STTRPSD/STTRP-100-20-1-c.dat, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61, 642.61
 ../instances/STTRPSD/STTRP-100-20-2-c.dat, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56, 581.56
 ../instances/STTRPSD/STTRP-100-20-1-rd.dat, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10, 1143.10
-../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1063.58, 1063.58, 1062.57, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1062.57
+../instances/STTRPSD/STTRP-100-20-2-rd.dat, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1063.58, 1060.85, 1063.58, 1060.85
 ../instances/STTRPSD/STTRP-200-10-1-c.dat, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96, 819.96
-../instances/STTRPSD/STTRP-200-10-2-c.dat, 710.70, 711.73, 710.70, 712.17, 710.70, 711.73, 710.70, 710.70, 712.17, 710.70, 710.70
-../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1756.72, 1755.41, 1755.41, 1755.41, 1755.41
-../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.05, 1445.94, 1445.94, 1445.94, 1445.05, 1445.94, 1445.94, 1445.05, 1445.94, 1445.94, 1445.05
+../instances/STTRPSD/STTRP-200-10-2-c.dat, 710.70, 711.73, 711.61, 710.70, 712.29, 711.73, 710.70, 710.70, 710.70, 710.70, 710.70
+../instances/STTRPSD/STTRP-200-10-1-rd.dat, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41, 1755.41
+../instances/STTRPSD/STTRP-200-10-2-rd.dat, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94, 1445.94
 ../instances/STTRPSD/STTRP-200-20-1-c.dat, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17, 907.17
-../instances/STTRPSD/STTRP-200-20-2-c.dat, 814.76, 814.76, 814.42, 814.42, 814.42, 814.42, 814.42, 814.42, 814.76, 814.42, 814.42
+../instances/STTRPSD/STTRP-200-20-2-c.dat, 814.42, 814.42, 814.42, 814.42, 814.42, 814.42, 814.42, 814.76, 814.42, 814.76, 814.42
 ../instances/STTRPSD/STTRP-200-20-1-rd.dat, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62, 1610.62
-../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.53, 1413.32
+../instances/STTRPSD/STTRP-200-20-2-rd.dat, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32, 1413.32
 
 
 
@@ -135,10 +134,10 @@ instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, 
 Set-partitioning post-optimization
 
 == Summary ==
-Average improvement = 0.06
-(Average best improvement = 0.10)
-Average percentage time = 4.55
-Average pool size = 5124.55
+Average improvement = 0.07
+(Average best improvement = 0.12)
+Average percentage time = 7.29
+Average pool size = 6229.15
 
 
 

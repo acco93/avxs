@@ -11,7 +11,7 @@ This file summarizes the results obtained with AVXS.
 Assignment fitness function
 - default values
 -- 1-near for problems with fixed costs
--- 5-near otherwise
+-- 25-near otherwise
 
 
 
@@ -33,21 +33,21 @@ instance, bks, best, avg, worst, t
 ../instances/mdvrp/p01, 576.87, 0.00, 0.00, 0.00, 10
 ../instances/mdvrp/p02, 473.53, 0.00, 0.00, 0.00, 10
 ../instances/mdvrp/p03, 641.19, 0.00, 0.00, 0.00, 20
-../instances/mdvrp/p04, 1001.04, 0.00, 0.15, 0.31, 179
-../instances/mdvrp/p05, 750.03, 0.00, 0.00, 0.00, 59
+../instances/mdvrp/p04, 1001.04, 0.00, 0.15, 0.31, 178
+../instances/mdvrp/p05, 750.03, 0.00, 0.00, 0.00, 56
 ../instances/mdvrp/p06, 876.50, 0.00, 0.00, 0.00, 75
 ../instances/mdvrp/p07, 881.97, 0.00, 0.06, 0.30, 86
 ../instances/mdvrp/p12, 1318.95, 0.00, 0.00, 0.00, 10
 ../instances/mdvrp/p15, 2505.42, 0.00, 0.00, 0.00, 89
-../instances/mdvrp/p18, 3702.85, 0.00, 0.02, 0.16, 266
-../instances/mdvrp/p21, 5474.84, 0.00, 0.01, 0.14, 755
+../instances/mdvrp/p18, 3702.85, 0.00, 0.00, 0.00, 273
+../instances/mdvrp/p21, 5474.84, 0.00, 0.00, 0.00, 774
 
 
 == Summary ==
 Average best gap = 0.00
 Average avg gap = 0.02
-Average worst gap = 0.08
-Average total time (10 runs) = 141.73
+Average worst gap = 0.06
+Average total time (10 runs) = 143.73
 
 
 
@@ -72,8 +72,8 @@ instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, 
 ../instances/mdvrp/p07, 881.97, 881.97, 881.97, 881.97, 881.97, 881.97, 884.66, 881.97, 881.97, 884.66, 881.97
 ../instances/mdvrp/p12, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95, 1318.95
 ../instances/mdvrp/p15, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42, 2505.42
-../instances/mdvrp/p18, 3702.85, 3702.85, 3708.71, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85
-../instances/mdvrp/p21, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5482.48, 5474.84, 5474.84, 5474.84
+../instances/mdvrp/p18, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85, 3702.85
+../instances/mdvrp/p21, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84, 5474.84
 
 
 
@@ -84,10 +84,10 @@ instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, 
 Set-partitioning post-optimization
 
 == Summary ==
-Average improvement = 0.34
-(Average best improvement = 0.47)
-Average percentage time = 8.22
-Average pool size = 10578.23
+Average improvement = 0.32
+(Average best improvement = 0.48)
+Average percentage time = 8.40
+Average pool size = 10925.20
 
 
 

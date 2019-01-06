@@ -11,7 +11,7 @@ This file summarizes the results obtained with AVXS.
 Assignment fitness function
 - default values
 -- 1-near for problems with fixed costs
--- 5-near otherwise
+-- 25-near otherwise
 
 
 
@@ -30,34 +30,34 @@ For each instance, the table contains the following columns
 - the total time to perform the runs in seconds (t)
 
 instance, bks, best, avg, worst, t
-../instances/chao/TTRP_01.txt.sv, 486.07, 0.00, 0.00, 0.02, 10
-../instances/chao/TTRP_02.txt.sv, 548.14, 0.00, 0.07, 0.25, 10
-../instances/chao/TTRP_03.txt.sv, 583.32, 0.00, 0.54, 1.28, 20
-../instances/chao/TTRP_04.txt.sv, 617.67, 0.00, 0.01, 0.11, 40
-../instances/chao/TTRP_05.txt.sv, 676.42, 0.00, 0.13, 0.14, 40
-../instances/chao/TTRP_06.txt.sv, 769.88, 0.00, 0.11, 0.72, 37
-../instances/chao/TTRP_07.txt.sv, 688.37, 0.18, 0.24, 0.29, 82
-../instances/chao/TTRP_08.txt.sv, 745.19, 0.00, 0.06, 0.16, 86
-../instances/chao/TTRP_09.txt.sv, 824.67, 0.00, 0.07, 0.24, 59
-../instances/chao/TTRP_10.txt.sv, 790.59, 0.00, 0.10, 0.22, 315
-../instances/chao/TTRP_11.txt.sv, 857.27, 0.09, 0.22, 0.36, 253
-../instances/chao/TTRP_12.txt.sv, 936.19, 0.14, 0.24, 0.53, 215
-../instances/chao/TTRP_13.txt.sv, 876.70, 0.06, 0.39, 0.55, 630
-../instances/chao/TTRP_14.txt.sv, 952.83, 0.41, 0.83, 1.16, 551
-../instances/chao/TTRP_15.txt.sv, 1051.44, 0.23, 0.62, 1.14, 469
-../instances/chao/TTRP_16.txt.sv, 579.29, 0.00, 0.15, 0.24, 104
-../instances/chao/TTRP_17.txt.sv, 611.30, 0.00, 0.01, 0.06, 122
-../instances/chao/TTRP_18.txt.sv, 698.57, 0.00, 0.00, 0.00, 69
-../instances/chao/TTRP_19.txt.sv, 541.87, 0.00, 0.00, 0.00, 51
-../instances/chao/TTRP_20.txt.sv, 582.62, 0.00, 0.00, 0.00, 61
-../instances/chao/TTRP_21.txt.sv, 676.13, 0.00, 0.08, 0.17, 70
+../instances/chao/TTRP_01.txt.sv, 486.07, 0.00, 0.00, 0.00, 19
+../instances/chao/TTRP_02.txt.sv, 548.14, 0.00, 0.00, 0.00, 20
+../instances/chao/TTRP_03.txt.sv, 583.32, 0.00, 0.00, 0.00, 10
+../instances/chao/TTRP_04.txt.sv, 617.13, 0.00, 0.01, 0.09, 41
+../instances/chao/TTRP_05.txt.sv, 676.42, 0.00, 0.00, 0.00, 44
+../instances/chao/TTRP_06.txt.sv, 769.88, 0.00, 0.00, 0.00, 30
+../instances/chao/TTRP_07.txt.sv, 687.64, 0.00, 0.16, 0.28, 92
+../instances/chao/TTRP_08.txt.sv, 745.19, 0.00, 0.00, 0.00, 102
+../instances/chao/TTRP_09.txt.sv, 821.31, 0.00, 0.17, 0.36, 78
+../instances/chao/TTRP_10.txt.sv, 790.54, 0.00, 0.13, 0.23, 377
+../instances/chao/TTRP_11.txt.sv, 857.27, 0.00, 0.02, 0.16, 285
+../instances/chao/TTRP_12.txt.sv, 936.00, 0.06, 0.21, 0.39, 249
+../instances/chao/TTRP_13.txt.sv, 875.85, 0.15, 0.34, 0.71, 769
+../instances/chao/TTRP_14.txt.sv, 950.80, 0.19, 0.63, 1.15, 620
+../instances/chao/TTRP_15.txt.sv, 1049.97, 0.18, 0.26, 0.43, 476
+../instances/chao/TTRP_16.txt.sv, 579.29, 0.00, 0.08, 0.18, 140
+../instances/chao/TTRP_17.txt.sv, 611.30, 0.00, 0.00, 0.00, 136
+../instances/chao/TTRP_18.txt.sv, 698.57, 0.00, 0.00, 0.00, 73
+../instances/chao/TTRP_19.txt.sv, 541.87, 0.00, 0.00, 0.00, 65
+../instances/chao/TTRP_20.txt.sv, 582.62, 0.00, 0.00, 0.00, 75
+../instances/chao/TTRP_21.txt.sv, 676.13, 0.00, 0.00, 0.00, 61
 
 
 == Summary ==
-Average best gap = 0.05
-Average avg gap = 0.18
-Average worst gap = 0.36
-Average total time (10 runs) = 156.86
+Average best gap = 0.03
+Average avg gap = 0.10
+Average worst gap = 0.19
+Average total time (10 runs) = 179.14
 
 
 
@@ -73,27 +73,27 @@ For each instance, the table contains the following columns
 - the best objective function value (best)
 
 instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, best
-../instances/chao/TTRP_01.txt.sv, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.12, 486.07, 486.16, 486.07, 486.07
-../instances/chao/TTRP_02.txt.sv, 548.14, 548.14, 548.14, 549.49, 549.10, 548.14, 548.14, 548.14, 548.14, 549.49, 548.14
-../instances/chao/TTRP_03.txt.sv, 590.77, 588.01, 583.48, 589.47, 583.48, 583.32, 590.19, 583.48, 589.47, 583.32, 583.32
-../instances/chao/TTRP_04.txt.sv, 617.67, 617.67, 617.67, 617.67, 617.67, 618.36, 617.67, 617.67, 617.67, 617.67, 617.67
-../instances/chao/TTRP_05.txt.sv, 677.39, 677.39, 677.39, 677.39, 677.39, 677.39, 676.42, 677.39, 677.39, 677.39, 676.42
-../instances/chao/TTRP_06.txt.sv, 769.88, 769.88, 769.88, 771.61, 769.88, 775.45, 769.88, 770.46, 769.88, 770.46, 769.88
-../instances/chao/TTRP_07.txt.sv, 690.32, 689.59, 689.91, 690.39, 689.59, 690.39, 690.39, 690.33, 689.94, 689.59, 689.59
-../instances/chao/TTRP_08.txt.sv, 746.41, 745.62, 745.62, 745.62, 745.62, 745.99, 745.19, 745.62, 745.62, 745.19, 745.19
-../instances/chao/TTRP_09.txt.sv, 824.67, 824.67, 824.67, 824.67, 824.67, 824.67, 826.41, 826.66, 826.66, 824.67, 824.67
-../instances/chao/TTRP_10.txt.sv, 790.59, 791.16, 791.80, 792.01, 791.60, 791.01, 791.60, 791.16, 792.31, 790.67, 790.59
-../instances/chao/TTRP_11.txt.sv, 858.76, 859.28, 858.78, 858.76, 860.35, 859.28, 859.28, 858.01, 859.39, 859.78, 858.01
-../instances/chao/TTRP_12.txt.sv, 938.41, 937.54, 938.69, 937.54, 937.54, 937.54, 941.11, 937.54, 939.02, 939.02, 937.54
-../instances/chao/TTRP_13.txt.sv, 877.19, 881.02, 880.49, 880.96, 881.48, 878.87, 880.80, 879.82, 879.86, 880.32, 877.19
-../instances/chao/TTRP_14.txt.sv, 963.85, 961.92, 956.97, 959.50, 958.85, 956.73, 963.27, 959.42, 963.18, 963.77, 956.73
-../instances/chao/TTRP_15.txt.sv, 1057.01, 1058.11, 1060.84, 1056.38, 1060.53, 1063.46, 1055.97, 1053.83, 1057.11, 1056.35, 1053.83
-../instances/chao/TTRP_16.txt.sv, 579.90, 579.35, 580.69, 580.34, 580.69, 580.69, 580.69, 579.29, 579.29, 580.69, 579.29
-../instances/chao/TTRP_17.txt.sv, 611.30, 611.68, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.48, 611.30, 611.30
+../instances/chao/TTRP_01.txt.sv, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07, 486.07
+../instances/chao/TTRP_02.txt.sv, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14, 548.14
+../instances/chao/TTRP_03.txt.sv, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32, 583.32
+../instances/chao/TTRP_04.txt.sv, 617.67, 617.13, 617.13, 617.13, 617.13, 617.13, 617.13, 617.13, 617.13, 617.13, 617.13
+../instances/chao/TTRP_05.txt.sv, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42, 676.42
+../instances/chao/TTRP_06.txt.sv, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88, 769.88
+../instances/chao/TTRP_07.txt.sv, 689.59, 689.59, 687.64, 689.59, 689.59, 688.85, 688.37, 688.85, 687.65, 687.65, 687.64
+../instances/chao/TTRP_08.txt.sv, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19, 745.19
+../instances/chao/TTRP_09.txt.sv, 824.17, 821.31, 824.17, 824.17, 821.31, 824.17, 821.31, 824.24, 821.31, 821.31, 821.31
+../instances/chao/TTRP_10.txt.sv, 790.54, 791.78, 791.34, 792.26, 792.26, 791.01, 791.13, 791.16, 791.95, 792.35, 790.54
+../instances/chao/TTRP_11.txt.sv, 858.60, 857.28, 857.54, 857.28, 857.28, 857.28, 857.28, 857.72, 857.28, 857.28, 857.28
+../instances/chao/TTRP_12.txt.sv, 937.54, 937.54, 938.14, 939.30, 936.53, 939.30, 936.53, 939.61, 937.54, 937.54, 936.53
+../instances/chao/TTRP_13.txt.sv, 878.31, 879.49, 877.19, 877.69, 879.31, 879.31, 878.03, 878.54, 882.06, 878.09, 877.19
+../instances/chao/TTRP_14.txt.sv, 957.12, 954.86, 955.36, 956.01, 952.59, 956.77, 956.96, 957.56, 961.73, 958.83, 952.59
+../instances/chao/TTRP_15.txt.sv, 1051.82, 1053.47, 1054.49, 1052.00, 1051.82, 1052.72, 1051.86, 1053.72, 1052.00, 1053.33, 1051.82
+../instances/chao/TTRP_16.txt.sv, 580.34, 579.38, 579.55, 579.82, 579.90, 579.82, 579.52, 579.38, 580.30, 579.29, 579.29
+../instances/chao/TTRP_17.txt.sv, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30, 611.30
 ../instances/chao/TTRP_18.txt.sv, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57, 698.57
 ../instances/chao/TTRP_19.txt.sv, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87, 541.87
 ../instances/chao/TTRP_20.txt.sv, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62, 582.62
-../instances/chao/TTRP_21.txt.sv, 676.13, 676.13, 677.07, 677.07, 676.62, 676.62, 676.62, 677.07, 676.13, 677.26, 676.13
+../instances/chao/TTRP_21.txt.sv, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13, 676.13
 
 
 
@@ -104,10 +104,10 @@ instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, 
 Set-partitioning post-optimization
 
 == Summary ==
-Average improvement = 0.40
-(Average best improvement = 0.63)
-Average percentage time = 19.01
-Average pool size = 3510.07
+Average improvement = 0.04
+(Average best improvement = 0.10)
+Average percentage time = 33.49
+Average pool size = 5523.30
 
 
 

@@ -1,0 +1,216 @@
+This file summarizes the results obtained with AVXS.
+ The level of details depends on the preprocessor directives used to compile the algorithm.
+ The results are aggregated over the runs and over the instances.
+
+
+
+
+
+
+
+Assignment fitness function
+- default values
+-- 1-near for problems with fixed costs
+-- 25-near otherwise
+
+
+
+
+
+
+
+Objective value and timings (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- the best known solution (bks)
+- the best gap over the runs (best)
+- the average gap over the runs (avg)
+- the worst gap over the runs (worst)
+- the total time to perform the runs in seconds (t)
+
+instance, bks, best, avg, worst, t
+../instances/bartolini/chao_1.30.dat, 350.60, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_2.30.dat, 371.60, 0.01, 0.01, 0.01, 10
+../instances/bartolini/chao_3.30.dat, 383.60, -0.00, -0.00, -0.00, 10
+../instances/bartolini/chao_4.30.dat, 351.70, 0.00, 0.00, 0.00, 10
+../instances/bartolini/chao_5.30.dat, 383.80, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_6.30.dat, 435.80, 0.00, 0.00, 0.00, 10
+../instances/bartolini/chao_7.30.dat, 365.10, 0.01, 0.01, 0.01, 10
+../instances/bartolini/chao_8.30.dat, 419.50, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_9.30.dat, 408.00, 0.00, 0.00, 0.00, 10
+../instances/bartolini/chao_10.30.dat, 411.50, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_11.30.dat, 398.80, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_12.30.dat, 471.80, 0.01, 0.01, 0.01, 10
+../instances/bartolini/tai_1.30.dat, 508.90, 0.01, 0.01, 0.01, 10
+../instances/bartolini/tai_2.30.dat, 711.30, 0.00, 0.00, 0.00, 10
+../instances/bartolini/tai_3.30.dat, 757.40, 0.00, 0.00, 0.00, 10
+../instances/bartolini/tai_4.30.dat, 310.60, -0.00, -0.00, -0.00, 10
+../instances/bartolini/tai_5.30.dat, 333.90, -0.01, -0.01, -0.01, 10
+../instances/bartolini/tai_6.30.dat, 359.10, -0.01, -0.01, -0.01, 10
+../instances/bartolini/tai_7.30.dat, 491.10, 0.00, 0.00, 0.00, 10
+../instances/bartolini/tai_8.30.dat, 538.50, 0.00, 0.00, 0.00, 10
+../instances/bartolini/tai_9.30.dat, 585.40, -0.01, -0.01, -0.01, 10
+../instances/bartolini/tai_10.30.dat, 608.80, -0.00, -0.00, -0.00, 10
+../instances/bartolini/tai_11.30.dat, 667.60, 0.01, 0.01, 0.01, 10
+../instances/bartolini/tai_12.30.dat, 719.10, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_1.40.dat, 399.20, 0.01, 0.01, 0.01, 10
+../instances/bartolini/chao_2.40.dat, 452.50, -2.48, -2.48, -2.48, 10
+../instances/bartolini/chao_3.40.dat, 472.30, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_4.40.dat, 415.20, -0.18, -0.18, -0.18, 10
+../instances/bartolini/chao_5.40.dat, 455.50, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_6.40.dat, 501.00, 0.00, 0.00, 0.00, 10
+../instances/bartolini/chao_7.40.dat, 423.10, -0.22, -0.22, -0.22, 10
+../instances/bartolini/chao_8.40.dat, 461.50, -0.00, -0.00, -0.00, 10
+../instances/bartolini/chao_9.40.dat, 449.00, -0.01, -0.01, -0.01, 10
+../instances/bartolini/chao_10.40.dat, 502.20, -3.32, -3.32, -3.32, 10
+../instances/bartolini/chao_11.40.dat, 500.70, 0.00, 0.00, 0.00, 10
+../instances/bartolini/chao_12.40.dat, 576.60, -0.37, -0.37, -0.37, 10
+
+
+== Summary ==
+Average best gap = -0.18
+Average avg gap = -0.18
+Average worst gap = -0.18
+Average total time (10 runs) = 10.00
+== New best solutions ==
+../instances/bartolini/chao_1.30.dat with cost 350.58
+../instances/bartolini/chao_5.30.dat with cost 383.77
+../instances/bartolini/chao_8.30.dat with cost 419.47
+../instances/bartolini/chao_10.30.dat with cost 411.47
+../instances/bartolini/chao_11.30.dat with cost 398.76
+../instances/bartolini/tai_5.30.dat with cost 333.88
+../instances/bartolini/tai_6.30.dat with cost 359.05
+../instances/bartolini/tai_9.30.dat with cost 585.36
+../instances/bartolini/tai_12.30.dat with cost 719.06
+../instances/bartolini/chao_2.40.dat with cost 441.26
+../instances/bartolini/chao_3.40.dat with cost 472.26
+../instances/bartolini/chao_4.40.dat with cost 414.46
+../instances/bartolini/chao_5.40.dat with cost 455.45
+../instances/bartolini/chao_7.40.dat with cost 422.16
+../instances/bartolini/chao_8.40.dat with cost 461.48
+../instances/bartolini/chao_9.40.dat with cost 448.96
+../instances/bartolini/chao_10.40.dat with cost 485.52
+../instances/bartolini/chao_12.40.dat with cost 574.46
+
+
+
+
+
+
+
+Absolute costs (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- for each run the value of the objective function for the best found solution (run N)
+- the best objective function value (best)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9, best
+../instances/bartolini/chao_1.30.dat, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58, 350.58
+../instances/bartolini/chao_2.30.dat, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64, 371.64
+../instances/bartolini/chao_3.30.dat, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59, 383.59
+../instances/bartolini/chao_4.30.dat, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70, 351.70
+../instances/bartolini/chao_5.30.dat, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77, 383.77
+../instances/bartolini/chao_6.30.dat, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80, 435.80
+../instances/bartolini/chao_7.30.dat, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13, 365.13
+../instances/bartolini/chao_8.30.dat, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47, 419.47
+../instances/bartolini/chao_9.30.dat, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01, 408.01
+../instances/bartolini/chao_10.30.dat, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47, 411.47
+../instances/bartolini/chao_11.30.dat, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76, 398.76
+../instances/bartolini/chao_12.30.dat, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83, 471.83
+../instances/bartolini/tai_1.30.dat, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95, 508.95
+../instances/bartolini/tai_2.30.dat, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31, 711.31
+../instances/bartolini/tai_3.30.dat, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42, 757.42
+../instances/bartolini/tai_4.30.dat, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59, 310.59
+../instances/bartolini/tai_5.30.dat, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88, 333.88
+../instances/bartolini/tai_6.30.dat, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05, 359.05
+../instances/bartolini/tai_7.30.dat, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10, 491.10
+../instances/bartolini/tai_8.30.dat, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51, 538.51
+../instances/bartolini/tai_9.30.dat, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36, 585.36
+../instances/bartolini/tai_10.30.dat, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79, 608.79
+../instances/bartolini/tai_11.30.dat, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64, 667.64
+../instances/bartolini/tai_12.30.dat, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06, 719.06
+../instances/bartolini/chao_1.40.dat, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25, 399.25
+../instances/bartolini/chao_2.40.dat, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26, 441.26
+../instances/bartolini/chao_3.40.dat, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26, 472.26
+../instances/bartolini/chao_4.40.dat, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46, 414.46
+../instances/bartolini/chao_5.40.dat, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45, 455.45
+../instances/bartolini/chao_6.40.dat, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00, 501.00
+../instances/bartolini/chao_7.40.dat, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16, 422.16
+../instances/bartolini/chao_8.40.dat, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48, 461.48
+../instances/bartolini/chao_9.40.dat, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96, 448.96
+../instances/bartolini/chao_10.40.dat, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52, 485.52
+../instances/bartolini/chao_11.40.dat, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72, 500.72
+../instances/bartolini/chao_12.40.dat, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46, 574.46
+
+
+
+
+
+
+
+Set-partitioning post-optimization
+
+== Summary ==
+Average improvement = 0.00
+(Average best improvement = 0.00)
+Average percentage time = 0.00
+Average pool size = 1198.05
+
+
+
+
+
+
+
+Seeds (csv format)
+
+For each instance, the table contains the following columns
+- instance identifier (instance)
+- a column for each runs which identifies the seed used in that run (run N)
+
+instance, run 0, run 1, run 2, run 3, run 4, run 5, run 6, run 7, run 8, run 9
+../instances/bartolini/chao_1.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_2.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_3.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_4.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_5.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_6.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_7.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_8.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_9.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_10.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_11.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_12.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_1.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_2.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_3.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_4.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_5.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_6.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_7.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_8.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_9.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_10.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_11.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/tai_12.30.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_1.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_2.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_3.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_4.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_5.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_6.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_7.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_8.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_9.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_10.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_11.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+../instances/bartolini/chao_12.40.dat, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+
+
+
+
+

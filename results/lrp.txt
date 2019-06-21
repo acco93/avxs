@@ -38,11 +38,11 @@ instance, bks, best, avg, worst, t
 ../instances/lrp_tuzun/coordP112122.dat, 1102.24, 0.00, 0.00, 0.01, 584
 ../instances/lrp_tuzun/coordP112212.dat, 791.66, 0.00, 0.01, 0.15, 124
 ../instances/lrp_tuzun/coordP112222.dat, 728.30, 0.00, 0.00, 0.00, 131
-../instances/lrp_tuzun/coordP113112.dat, 1238.44, 0.00, 0.03, 0.13, 542
+../instances/lrp_tuzun/coordP113112.dat, 1238.24, 0.02, 0.05, 0.15, 542
 ../instances/lrp_tuzun/coordP113122.dat, 1245.30, 0.00, 0.00, 0.01, 438
 ../instances/lrp_tuzun/coordP113212.dat, 902.26, 0.00, 0.00, 0.00, 433
-../instances/lrp_tuzun/coordP113222.dat, 1021.31, -0.30, -0.30, -0.30, 499
-../instances/lrp_tuzun/coordP131112.dat, 1866.75, 1.93, 2.46, 3.47, 704
+../instances/lrp_tuzun/coordP113222.dat, 1018.29, 0.00, 0.00, 0.00, 499
+../instances/lrp_tuzun/coordP131112.dat, 1892.17, 0.56, 1.08, 2.08, 704
 ../instances/lrp_tuzun/coordP131122.dat, 1819.68, 0.25, 1.06, 2.14, 770
 ../instances/lrp_tuzun/coordP131212.dat, 1960.02, 0.24, 0.27, 0.38, 420
 ../instances/lrp_tuzun/coordP131222.dat, 1792.77, 0.00, 0.26, 0.82, 688

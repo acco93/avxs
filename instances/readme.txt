@@ -21,6 +21,7 @@ The previously described file format applies to instances in the directories:
 . xsttrp
 . sttrpsd
 . bartolini
+. cvrp
 
 SINGLE TRUCK AND TRAILER ROUTING PROBLEM WITH SATELLITE DEPOTS (STTRPSD)
 Refer to the original readme inside the STTRPSD directory.

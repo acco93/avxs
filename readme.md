@@ -1,8 +1,8 @@
-Stable version of the `AVXS` algorithm described in the paper.
+This repository contains the code associated with the paper "A Hybrid Metaheuristic for Single Truck and Trailer Routing Problems".
 
 #### Table of contents
 <!--ts-->
-   * [Introduction](#introduction)
+   * [Abstract](#abstract)
    * [Software](#software)
    * [Directories and files](#directories-and-files)
    * [Requirements](#requirements)
@@ -11,66 +11,37 @@ Stable version of the `AVXS` algorithm described in the paper.
    * [License](#license)
 <!--te-->
 
-#### Introduction
-Truck and trailer routing problems are a very well studied class of vehicle routing problems in which vehicle capacities may be augmented with trailers. The literature contains several variations on this basic settings for these problems that add specific constraints modeling specific scenarios.
-
-
-This paper studies the Extended Single Truck and Trailer Routing Problem which generalizes a set of existing truck and trailer routing problems by including a variety of vertex types previously only considered separately: truck customers, vehicle customers with and without parking facilities, and parking-only locations.
-
-
-The XSTTRP calls for servicing a set of customers with known demand by using a single vehicle, composed of a capacitated truck and a non-autonomous, detachable trailer, which is initially located at a (main) depot.
-
-
-The customers are partitioned in two different sets: *truck customers* and *vehicle customers*.
-
-
-The *accessibility constraints* impose that truck customers must be visited by the truck only, while vehicle customers can be served either by the whole vehicle or just by the truck.
-
-
-Vehicle customers are, in turn, split into vehicle customers *with parking facilities* and vehicle customers *without parking facilities*.
-
-
-The problem contains an additional set of *satellite depots* (or just satellites), locations (which are not customers) where the trailer may be parked whenever necessary.
-
-
-An XSTTRP solution is made up by a *main-route* traveled by the complete vehicle, which starts from the main depot, visits a subset of vehicle customers and satellite depots and returns to the depot.
-
-
-When the vehicle visits a parking location (either a satellite depot or a vehicle customer with parking facilities) it can detach its trailer, serve a subset of customers with the truck and return to the parking location to pick up the trailer. We call this a *sub-route*, and the place where the trailer has been decoupled is the *root* of the sub-route.
-
-
-The objective is to find a solution which serves all customers while minimizing the total traveling costs and respecting both the truck capacity along sub-routes and the accessibility constraints.
-
-
-We developed a comprehensive, yet effective, heuristic solution approach for the XSTTRP. The resulting metaheuristic has been extensively tested on many instances, including special cases involving known problems such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots and the Single Truck and Trailer Routing Problem.
+#### Abstract
+In the paper, we propose a general solution approach for a broad class of vehicle routing problems that all use a single vehicle, composed of a truck and a detachable trailer, to serve a set of customers with known demand and  accessibility constraints. A more general problem, called the Extended Single Truck and Trailer Routing Problem (XSTTRP), is used as a common baseline to describe and model this class of problems. In particular, the XSTTRP contains, all together, a variety of vertex types previously only considered separately: truck customers, vehicle customers with and without parking facilities, and parking-only locations. To solve XSTTRP we developed a fast and effective hybrid metaheuristic, consisting of an iterative core part, in which routes that define high-quality solutions are stored in a pool. Eventually, a set-partitioning based post-optimization selects the best combination of routes that forms a feasible solution from the pool. The algorithm is tested on extensively studied literature problems such as the Multiple Depot Vehicle Routing Problem, the Location Routing Problem, the Single Truck and Trailer Routing Problem with Satellite Depots, and the Single Truck and Trailer Routing Problem. Finally, computational results and a thorough analysis of the main algorithm's components on newly designed XSTTRP instances are provided. The obtained results show that the proposed hybrid metaheuristic is highly competitive with previous approaches designed to solve specific specialized problems, both in terms of computing time and solution quality.
 
 #### Software
-- `avxs` algorithm [Stable version](https://github.com/acco93/avxs/archive/master.zip) [Active repository](#)
-- `xmm` XSTTRP map maker [Active repository](https://github.com/acco93/xmm)
+- `avxs` algorithm [[Stable version]](https://github.com/acco93/avxs/archive/master.zip)
+- `xmm` XSTTRP map maker [[Active repository]](https://github.com/acco93/xmm)
 
 #### Directories and files
-The stable version of `AVXS` contains the following directories and files
-- `build` contains the algorithm executable once compiled. It is automatically generated if removed or not present.
-- `instances` contains the instances used to test the algorithm and a readme that describes the supported file formats. 
-- `results` contains the log for the results as published in the paper.
+The repository contains the following directories and files
+- `instances` contains the instances used to test the algorithm and a `readme` file that describes the file formats supported by the algorithm parser.
 - `scripts` contains a set of utility scripts to build the source code and to reproduce the published results.
- All the scripts assume that the directories structure is the one define in this readme. 
-  - `analysis.sh` performs some analysis as in the Analysis section of the paper. It automatically takes care to compile the code with the required directives and run it with the required input parameters.
-  - `build.sh` compiles the code from the source directory and outputs an executable in the build directory.
-  - `cmake_install.sh` installs cmake (the minimum required version is defined in `source/CMakeLists.txt`).
-  - `run.sh` performs the experiments as published in the paper. It automatically takes care to compile the code with the required directives and run it with the required input parameters.
-- `source` contains the algorithm source code in the `source` directory and produces an executable in the `build` directory.
-- `bks.txt` contains the list of best known solution values for the considered instances. It is used to compute the gap within the algorithm.
+All the scripts assume that the structure of the directories is the one described in this document.
+  - `analysis.sh` performs the analysis described in the Analysis section of the paper. It automatically takes care to compile the code with the required directives and run the executable with the required input parameters.
+  - `additional_analysis.sh` performs the additional analysis requested in the revision.
+  - `build.sh` compiles the code from the `source` directory and outputs an executable in the `build` directory.
+  - `cmake_install.sh` installs `cmake` (the minimum required version is defined in `source/CMakeLists.txt`).
+  - `run.sh` performs the experiments as published in the Computational Results of the paper. As for previous scripts, it automatically compiles the code with the required directives and run the executable with the required input parameters.
+- `source` contains the algorithm source code.
+- `build` will contain the algorithm executable when the source is compiled with `scripts/build.sh`. This directory is automatically generated by `build.sh` if it does not exist.
+- `results/` contains the log for the computational results as well as a graphic representation of the solutions found by the algorithm.
+- `bks.txt` contains the list of the best known solution values for the considered instances. It is used by the algorithm to compute solution gaps.
 
 #### Requirements
-The following programs are needed either to build the code or to perform some extra tasks such as creating pdf files with a graphical representation of the solutions.
+The following programs are needed either to build the code or to perform some extra tasks such as creating pdf files with the graphic representation of the solutions.
 
-To correctly compile and build the executable and to execute `scripts/build.sh` are required
+To correctly compile and build the executable and to run `scripts/build.sh`
 - `cmake` >= 3.10
 - `g++` >= 6.3.0*
 - `cplex` >= 12.8*
 
-To successfully execute `scripts/run.sh`
+To successfully run `scripts/run.sh`
 - `cmake` >= 3.10
 - `g++` >= 6.3.0*
 - `cplex` >= 12.8*
@@ -78,36 +49,44 @@ To successfully execute `scripts/run.sh`
 - `pdflatex`
 
 
-\* suggested version. Previous (recent) versions *should* working too.
+\* suggested version. Previous (recent) versions *should* work too.
 
 #### Build options
-You can provide the following optional cmake options.
-- `ENABLE_STATS` to enable detailed statistics.
-- `ENABLE_VERBOSE` to enable very detailed results such as each solution representation and if `ENABLE_STATS` is enabled, the partial evolution in terms of 2D points `(iteration, % gap)` of the algorithm averaged over all instances and runs.
-- `ENABLE_VND` to disable randomization in the improvement phase.
-- `ENABLE_NGRANULAR` to use complete neighborhood exploration instead of granular neighborhoods.
+You can provide the following optional `cmake` compilation options
+- `ENABLE_STATS` turns on the logging of detailed statistics.
+- `ENABLE_VERBOSE` turns on the logging of very detailed results such as each solution representation and if used in combination with `ENABLE_STATS` the partial evolution in terms of 2D points `(iteration, % gap)` of the algorithm averaged over all instances and runs.
+- `ENABLE_VND` disables randomization in the improvement phase.
+- `ENABLE_NGRANULAR` turns on complete neighborhood exploration instead of granular one.
+- `ENABLE_LONGER_IMPROVEMENT` makes the algorithm perform &#x03B4; = 1000 (instead of &#x03B4; = 100) possible non improving iterations.
+- `ENABLE_OPERATOR_XXX` where `XXX` can be `RELOCATE`, `SWAP`, `TWOPT`, `SEGSWAP` or `ROOTREF` turns on the corresponding operator in the local search execution. All operators are enabled by default.
+- `ENABLE_POLISHING_PHASE` turns on the post-optimization polishing phase. It is enabled by default.
+- `ENABLE_BEST_RNEI_ORDER` orders the neighborhoods according to their RNEI. It has to be used in combination with `ENABLE_VND`.
 
-The directives must be given using `-DENABLE_XXXX=ON`. See the example below.
-It is necessary to rebuild the program to commit the changes e.g. `cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
+The previous directives can be turn on or off by using `-DENABLE_XXXX=ON` or `-DENABLE_XXXX=OFF`, respectively. See the example below or check the scripts into the `scripts` directory.
 
+Note that it is necessary to recompile the program to apply the changes
+
+`cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_VND=ON && cmake --build . --target all -- -j 4`
+
+As previously stated, use `OFF` to disable an already enabled feature
+
+`cmake -DCMAKE_BUILD_TYPE=Release -DENABLE_POLISHING_PHASE=OFF && cmake --build . --target all -- -j 4`
 
 #### Usage
 The algorithm requires a unique mandatory argument
-- `files PATH1 PATH2 ... PATHN` where each `PATH` identifies an instance to be processed
+- `files PATH1 PATH2 ... PATHN` where each `PATH` identifies an instance to be processed.
 
-You can provide the following optional command line arguments
+In addition, you can provide the following optional command line arguments
 - `help` shows the help and exit
-- `runs N` integer value, it tells the algorithm to execute `N` runs for every instance. Default is `1`.
-- `seed N` integer value, specifies the seed. In case of multiple runs, it is used as a base seed and the real seed is computed as `seed + run`. Default is `std::random_device`.
+- `runs N` where `N` is an integer value, tells the algorithm to execute `N` runs for every instance. Default is `1`.
+- `seed N` where `N` is an integer value, specifies the seed of the `std::mt19937` pseudo random number generator. In case of multiple runs, the value `N` is used as base seed and the real seed is computed as `seed + run_number`. The default seed is generated using `std::random_device`.
 - `bks PATH` specifies where to find the file with the best known solution values. Default is `../bks.txt`.
-- `near N` integer value, it forces the algorithm to use the `N-near` assignment fitness function during the assignment phase. Default `1-near` for instances with fixed costs and `5-near` otherwise.
-- `rank R` real value, it forces the algorithm to use the `R-rank` assignment fitness function during the assignment phase. Default `1-near` for instances with fixed costs and `5-near` otherwise.
-- `log PATH` specifies where to store the log. Default is a randomly named file in the current directory.
-- `precision N` integer value, it specifies to use `N` decimal places to use in computing the arcs cost. The numbers are truncated thus, if using too few places, undefined behaviour might happen. Default is standard floating point precision.
-- `round-results N` integer value, it specifies to use `N` decimal places in showing the results. Default is `2`.
-- `tex-picture` for each instance and for each run a .tex file corresponding to the graphical representation of the solution is generated.
+- `near N` where `N` is an integer value, forces the algorithm to use the `N-near` assignment fitness function during the assignment phase. Default `1-near` for instances with fixed costs and `25-near` otherwise.
+- `rank R` where `R` is a real value, forces the algorithm to use the `R-rank` assignment fitness function during the assignment phase. Default `1-near` for instances with fixed costs and `25-near` otherwise.
+- `log PATH` specifies where to store the log file. Default is a randomly named file in the directory where the executable is run.
+- `tex-picture` specifies the algorithm to generate the graphic representation of the final solution of each processed instance.
 
-All arguments must be provided with `--`, see the example below. Arguments can be given in any order.
+Arguments can be given in any order but must all be provided with `--`
 
 `./avxs --files ../instances/xsttrp/xsttrp25 ../instances/mdvrp/p18 --runs 5 --tex-pictures --log file.txt`
 

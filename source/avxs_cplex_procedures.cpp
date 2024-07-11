@@ -139,8 +139,8 @@ void solve_set_partitioning(const xsttrp_instance &instance, set_partitioning_po
 
     const auto max_columns_at_once = 1000;
 
-    auto sense = mm::request_raw_contiguous_memory<char>(static_cast<const size_t>(mip_model_rows_number));
-    auto rhs = mm::request_raw_contiguous_memory<double>(static_cast<const size_t>(mip_model_rows_number));
+    auto sense = mm::request_raw_contiguous_memory<char>(static_cast<size_t>(mip_model_rows_number));
+    auto rhs = mm::request_raw_contiguous_memory<double>(static_cast<size_t>(mip_model_rows_number));
 
     int rowIndex = 0;
 

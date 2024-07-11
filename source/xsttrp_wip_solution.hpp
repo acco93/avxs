@@ -33,7 +33,7 @@ class xsttrp_wip_solution {
                               std::mt19937 &randEngine) {
         const size_t len = elements.size();
         for (size_t i = 0; i < len; i++) {
-            const auto r = static_cast<const int>(randEngine() % len);
+            const auto r = static_cast<int>(randEngine() % len);
             const T temp = elements[i];
             elements[i] = elements[r];
             elements[r] = temp;
@@ -49,7 +49,7 @@ class xsttrp_wip_solution {
 
         const size_t len = elements1.size();
         for (size_t i = 0; i < len; i++) {
-            const auto r = static_cast<const int>(randEngine() % len);
+            const auto r = static_cast<int>(randEngine() % len);
 
             const T temp1 = elements1[i];
             elements1[i] = elements1[r];

@@ -5,14 +5,14 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
-set(OPT_FLAGS "-O3 -march=native -fwhole-program -flto")
+set(OPT_FLAGS "-O3 -march=native -flto=auto")
 set(WARNING_FLAGS "-Wall -Wextra -Wpedantic -Wuninitialized")
 set(SANITIZERS_FLAGS "-fno-omit-frame-pointer -fsanitize=address -fsanitize=undefined -fsanitize=leak")
 
-set(CPLEX_INC_DIR   "/opt/ibm/ILOG/CPLEX_Studio128/cplex/include")
-set(CPLEX_LIB_DIR   "/opt/ibm/ILOG/CPLEX_Studio128/cplex/lib/x86-64_linux/static_pic")
-set(CONCERT_INC_DIR "/opt/ibm/ILOG/CPLEX_Studio128/concert/include")
-set(CONCERT_LIB_DIR "/opt/ibm/ILOG/CPLEX_Studio128/concert/lib/x86-64_linux/static_pic")
+set(CPLEX_INC_DIR   "/opt/ibm/ILOG/CPLEX_Studio2211/cplex/include")
+set(CPLEX_LIB_DIR   "/opt/ibm/ILOG/CPLEX_Studio2211/cplex/lib/x86-64_linux/static_pic")
+set(CONCERT_INC_DIR "/opt/ibm/ILOG/CPLEX_Studio2211/concert/include")
+set(CONCERT_LIB_DIR "/opt/ibm/ILOG/CPLEX_Studio2211/concert/lib/x86-64_linux/static_pic")
 
 OPTION(ENABLE_STATS "Enable statistics logging" OFF)                    #disabled by defauls
 IF(ENABLE_STATS)

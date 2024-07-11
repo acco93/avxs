@@ -673,7 +673,7 @@ bool hopkins_statistic(const xsttrp_instance& instance) {
     }
 
     for (size_t i = 0; i < vertices.size(); i++) {
-        const auto r = static_cast<const int>(rand_engine() % vertices.size());
+        const auto r = static_cast<int>(rand_engine() % vertices.size());
         const auto temp = vertices[i];
         vertices[i] = vertices[r];
         vertices[r] = temp;

@@ -8,7 +8,7 @@ rm ../source/Makefile
 if [ -d ../build ]; then rm -Rf ../build; fi
 mkdir -p ../build
 mv ../source/avxs ../build
-echo "\n\n\n\n\n"
+printf "\n\n\n\n\n"
 echo "============================================="
 echo "Go to ../build/ to find the avxs executable"
 
